@@ -3,11 +3,11 @@
   <title>Gghost</title>
   <icon>https://www.gravatar.com/avatar/32a2aff28706d71d09587c53b19ed25f</icon>
   <subtitle>剔透</subtitle>
-  <link href="http://example.com/atom.xml" rel="self"/>
+  <link href="http://gjnghost.top/atom.xml" rel="self"/>
   
-  <link href="http://example.com/"/>
+  <link href="http://gjnghost.top/"/>
   <updated>2021-01-13T17:45:59.256Z</updated>
-  <id>http://example.com/</id>
+  <id>http://gjnghost.top/</id>
   
   <author>
     <name>Gghost</name>
@@ -18,8 +18,8 @@
   
   <entry>
     <title>『Professional course』软件工程基础期末复习</title>
-    <link href="http://example.com/2021/01/12/2021-01-12-%E3%80%8EProfessional%20course%E3%80%8F%E8%BD%AF%E4%BB%B6%E5%B7%A5%E7%A8%8B%E5%9F%BA%E7%A1%80%E6%9C%9F%E6%9C%AB%E5%A4%8D%E4%B9%A0/"/>
-    <id>http://example.com/2021/01/12/2021-01-12-%E3%80%8EProfessional%20course%E3%80%8F%E8%BD%AF%E4%BB%B6%E5%B7%A5%E7%A8%8B%E5%9F%BA%E7%A1%80%E6%9C%9F%E6%9C%AB%E5%A4%8D%E4%B9%A0/</id>
+    <link href="http://gjnghost.top/2021/01/12/2021-01-12-%E3%80%8EProfessional%20course%E3%80%8F%E8%BD%AF%E4%BB%B6%E5%B7%A5%E7%A8%8B%E5%9F%BA%E7%A1%80%E6%9C%9F%E6%9C%AB%E5%A4%8D%E4%B9%A0/"/>
+    <id>http://gjnghost.top/2021/01/12/2021-01-12-%E3%80%8EProfessional%20course%E3%80%8F%E8%BD%AF%E4%BB%B6%E5%B7%A5%E7%A8%8B%E5%9F%BA%E7%A1%80%E6%9C%9F%E6%9C%AB%E5%A4%8D%E4%B9%A0/</id>
     <published>2021-01-11T16:00:00.000Z</published>
     <updated>2021-01-13T17:45:59.256Z</updated>
     
@@ -31,12 +31,12 @@
     
     
     
-    <category term="Professional course" scheme="http://example.com/categories/Professional-course/"/>
+    <category term="Professional course" scheme="http://gjnghost.top/categories/Professional-course/"/>
     
     
-    <category term="Professional course" scheme="http://example.com/tags/Professional-course/"/>
+    <category term="Professional course" scheme="http://gjnghost.top/tags/Professional-course/"/>
     
-    <category term="软件工程" scheme="http://example.com/tags/%E8%BD%AF%E4%BB%B6%E5%B7%A5%E7%A8%8B/"/>
+    <category term="软件工程" scheme="http://gjnghost.top/tags/%E8%BD%AF%E4%BB%B6%E5%B7%A5%E7%A8%8B/"/>
     
   </entry>
   
