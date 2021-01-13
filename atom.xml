@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Gghost</title>
+  <icon>https://www.gravatar.com/avatar/32a2aff28706d71d09587c53b19ed25f</icon>
+  <subtitle>剔透</subtitle>
+  <link href="http://example.com/atom.xml" rel="self"/>
+  
+  <link href="http://example.com/"/>
+  <updated>2021-01-13T17:45:59.256Z</updated>
+  <id>http://example.com/</id>
+  
+  <author>
+    <name>Gghost</name>
+    <email>1766933911@qq.com</email>
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>『Professional course』软件工程基础期末复习</title>
+    <link href="http://example.com/2021/01/12/2021-01-12-%E3%80%8EProfessional%20course%E3%80%8F%E8%BD%AF%E4%BB%B6%E5%B7%A5%E7%A8%8B%E5%9F%BA%E7%A1%80%E6%9C%9F%E6%9C%AB%E5%A4%8D%E4%B9%A0/"/>
+    <id>http://example.com/2021/01/12/2021-01-12-%E3%80%8EProfessional%20course%E3%80%8F%E8%BD%AF%E4%BB%B6%E5%B7%A5%E7%A8%8B%E5%9F%BA%E7%A1%80%E6%9C%9F%E6%9C%AB%E5%A4%8D%E4%B9%A0/</id>
+    <published>2021-01-11T16:00:00.000Z</published>
+    <updated>2021-01-13T17:45:59.256Z</updated>
+    
+    
+    <summary type="html">&lt;h2 id=&quot;题型&quot;&gt;&lt;a href=&quot;#题型&quot; class=&quot;headerlink&quot; title=&quot;题型&quot;&gt;&lt;/a&gt;题型&lt;/h2&gt;&lt;p&gt;选择题 10 &lt;code&gt;2&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;判断题 10 &lt;code&gt;2&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;简答题 4 &lt;code&gt;5&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;综合题 4 &lt;code&gt;10&lt;/code&gt;&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="Professional course" scheme="http://example.com/categories/Professional-course/"/>
+    
+    
+    <category term="Professional course" scheme="http://example.com/tags/Professional-course/"/>
+    
+    <category term="软件工程" scheme="http://example.com/tags/%E8%BD%AF%E4%BB%B6%E5%B7%A5%E7%A8%8B/"/>
+    
+  </entry>
+  
+</feed>
