@@ -3,12 +3,16 @@
   <entry>
     <title>『Professional course』软件工程基础期末复习</title>
     <url>/2021/01/12/2021-01-12-%E3%80%8EProfessional%20course%E3%80%8F%E8%BD%AF%E4%BB%B6%E5%B7%A5%E7%A8%8B%E5%9F%BA%E7%A1%80%E6%9C%9F%E6%9C%AB%E5%A4%8D%E4%B9%A0/</url>
-    <content><![CDATA[<h2 id="题型"><a href="#题型" class="headerlink" title="题型"></a>题型</h2><p>选择题 10 <code>2</code></p>
+    <content><![CDATA[<blockquote>
+<p>针对ZJNU2020-2021学年第一学期计师&amp;计非班软工基础期末考试的资料整理</p>
+</blockquote>
+<p><img src="https://i.loli.net/2021/01/14/zk39vVfOYPhodCE.jpg" alt="QQ图片20210113223140 _2_.jpg"></p>
+<a id="more"></a>
+
+<h2 id="题型"><a href="#题型" class="headerlink" title="题型"></a>题型</h2><p>选择题 10 <code>2</code></p>
 <p>判断题 10 <code>2</code></p>
 <p>简答题 4 <code>5</code></p>
 <p>综合题 4 <code>10</code></p>
-<a id="more"></a>
-
 <h2 id="选择题-amp-判断题"><a href="#选择题-amp-判断题" class="headerlink" title="选择题&amp;判断题"></a>选择题&amp;判断题</h2><h3 id="第一章-软件工程概述"><a href="#第一章-软件工程概述" class="headerlink" title="第一章 软件工程概述"></a>第一章 软件工程概述</h3><ol>
 <li>什么是软件工程：<ul>
 <li>软件工程是指导计算机软件<strong>开发</strong>和<strong>维护</strong>的一门工程学科。</li>
@@ -758,6 +762,194 @@ C) 国际软件质量认证                 D) 软件统一性标准</code></pre
       <tags>
         <tag>Professional course</tag>
         <tag>软件工程</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>『Blog』Hexo+Github博客搭建&amp;域名</title>
+    <url>/2021/01/14/2021-01-14-%E3%80%8EBlog%E3%80%8FHexo+Github%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA&amp;%E5%9F%9F%E5%90%8D/</url>
+    <content><![CDATA[<blockquote>
+<p>First time搞博客的时候，是直接GitHub上fork的，qs更新的时候比较闹心</p>
+<p>众所周知，期末考试结束之后就是搞事情的时候 :P</p>
+<p>……本篇博客全凭回忆（可能有遗漏</p>
+</blockquote>
+<p><img src="https://i.loli.net/2021/01/14/LTCBt3OPWxU9b68.jpg" alt="QQ图片20210113223050.jpg"></p>
+<a id="more"></a>
+
+<h2 id="搭建环境准备"><a href="#搭建环境准备" class="headerlink" title="搭建环境准备"></a>搭建环境准备</h2><h3 id="Node-js的安装和准备"><a href="#Node-js的安装和准备" class="headerlink" title="Node.js的安装和准备"></a>Node.js的安装和准备</h3><ul>
+<li><p><a href="https://nodejs.org/en/">下载Node.js安装文件</a></p>
+<ul>
+<li><p>根据Windows版本选择：64bit。</p>
+</li>
+<li><p>保持默认设置，一路【Next】，安装即可。</p>
+</li>
+</ul>
+</li>
+<li><p>确认是否安装正确</p>
+<ul>
+<li><p>打开cmd输入</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">node -v</span><br><span class="line">npm -v</span><br></pre></td></tr></table></figure></li>
+<li><p>若结果如下图所示，则说明安装正确，可以进行下一步了，如果不正确，则需要回头检查自己的安装过程。</p>
+<img src="https://i.loli.net/2021/01/14/qW6iFYOZCubKlaB.png" alt="QQ图片20210114165854.png" />
+
+</li>
+</ul>
+</li>
+</ul>
+<h3 id="Git的安装和准备"><a href="#Git的安装和准备" class="headerlink" title="Git的安装和准备"></a>Git的安装和准备</h3><ul>
+<li><p><a href="https://git-scm.com/">下载Git安装文件</a></p>
+<ul>
+<li><p>根据Windows版本选择：64bit。</p>
+</li>
+<li><p>保持默认设置，一路【Next】，安装即可。</p>
+</li>
+</ul>
+</li>
+<li><p>确认是否安装正确</p>
+<ul>
+<li><p>打开cmd输入</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">git --version</span><br></pre></td></tr></table></figure></li>
+<li><p>若结果如下图所示，则说明安装正确，可以进行下一步了，如果不正确，则需要回头检查自己的安装过程。</p>
+<p><img src="https://i.loli.net/2021/01/14/YaQzoBpJwiRr3nq.png" alt="1.png"></p>
+</li>
+</ul>
+</li>
+</ul>
+<h3 id="GitHub账户注册和配置"><a href="#GitHub账户注册和配置" class="headerlink" title="GitHub账户注册和配置"></a>GitHub账户注册和配置</h3><ul>
+<li><p>注册，并确认注册</p>
+</li>
+<li><p>创建代码库，Repository name填写``YourName.github.io`</p>
+<blockquote>
+<p>例如，GitHub名称为GJnghost，则填写GJnghost.github.io</p>
+</blockquote>
+</li>
+</ul>
+<h2 id="Hexo安装配置"><a href="#Hexo安装配置" class="headerlink" title="Hexo安装配置"></a>Hexo安装配置</h2><h3 id="安装Hexo"><a href="#安装Hexo" class="headerlink" title="安装Hexo"></a>安装Hexo</h3><ul>
+<li><p>在自己认为合适的地方创建一个文件夹，这里以D：/hexo 为例，首先在D盘目录下创建Hexo文件夹，并在命令行的窗口进入到该目录</p>
+</li>
+<li><p>在cmd中输入</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">npm install hexo-cli -g</span><br></pre></td></tr></table></figure>
+<ul>
+<li><p>那么这时候就会发现，它快乐地转了几个小时也没下载下来</p>
+<p>解决方法：修改npm安装源，这里使用淘宝镜像</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">npm config set registry https:&#x2F;&#x2F;registry.npm.taobao.org</span><br></pre></td></tr></table></figure></li>
+<li><p>于是它快乐下载，于是快乐error了</p>
+<p>错误：<code>TypeError:this is not a typed array;</code></p>
+<p>原因：安装的node版本过低……（所以上文的下载地址改成了官网</p>
+</li>
+<li><p>如果出现WARN，请忽略它</p>
+</li>
+</ul>
+</li>
+<li><p>在cmd中输入</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">npm install hexo --save</span><br></pre></td></tr></table></figure></li>
+<li><p>在cmd中输入</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">hexo -v</span><br></pre></td></tr></table></figure>
+<p>若结果如下图所示，则说明安装成功，如果没有且排查不出错误的话，请换篇博客参考（doge</p>
+<p><img src="https://i.loli.net/2021/01/14/qvFWBI8fA5mVR3L.png" alt="QQ图片20210114172428.png"></p>
+</li>
+</ul>
+<h3 id="hexo相关配置"><a href="#hexo相关配置" class="headerlink" title="hexo相关配置"></a>hexo相关配置</h3><ul>
+<li><p><strong>初始化Hexo</strong></p>
+<p>在cmd中输入</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">hexo init</span><br><span class="line">npm install</span><br></pre></td></tr></table></figure>
+<p>Wating……</p>
+</li>
+<li><p><strong>体验Hexo</strong></p>
+<p>在cmd中输入</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">hexo g</span><br><span class="line">hexo s</span><br></pre></td></tr></table></figure>
+<p>会提示：</p>
+<blockquote>
+<p>INFO  Hexo is running at <a href="http://localhost:4000/">http://localhost:4000</a> . Press Ctrl+C to stop.</p>
+</blockquote>
+<p>在浏览器中打开<a href="http://localhost:4000，将会看到：">http://localhost:4000，将会看到：</a></p>
+<p><img src="https://i.loli.net/2021/01/14/bxlBdwYfUpsRCyt.png" alt="QQ图片20210114181323.png"></p>
+</li>
+</ul>
+<p>至此，Hexo本地配置结束</p>
+<h2 id="联系Hexo与github-page"><a href="#联系Hexo与github-page" class="headerlink" title="联系Hexo与github page"></a>联系Hexo与github page</h2><h3 id="配置git个人信息"><a href="#配置git个人信息" class="headerlink" title="配置git个人信息"></a>配置git个人信息</h3><ul>
+<li><p>设置Git的user name和email：（第一次的话</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">git config --global user.name &quot;GJnhost&quot;</span><br><span class="line">git config --global user.email &quot;1766933911@qq.com&quot;</span><br></pre></td></tr></table></figure></li>
+<li><p>生成密钥</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">ssh-keygen -t rsa -C &quot;1766933911@163.com&quot;</span><br></pre></td></tr></table></figure>
+<p>三个回车得到密钥</p>
+<p>得到id_rsa和id_rsa.pub，默认文件存储路径：</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">C:\Users\Jolin\.ssh</span><br></pre></td></tr></table></figure></li>
+<li><p>将id_rsa.pub中数据复制</p>
+</li>
+<li><p>打开Github，个人的【Settings】，在【SSH and GPG keys】中的【SSH keys】中选择【New SSH key】，将上一步的数据粘贴进去</p>
+</li>
+</ul>
+<h3 id="配置Deployment"><a href="#配置Deployment" class="headerlink" title="配置Deployment"></a>配置Deployment</h3><ul>
+<li><p>在根目录的<code>_config.yml</code>文件中，找到Deployment，按如下修改</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">deploy:</span><br><span class="line">  type: git</span><br><span class="line">  repo: git@github.com:yourname&#x2F;yourname.github.io.git</span><br><span class="line">  branch: master</span><br></pre></td></tr></table></figure>
+<blockquote>
+<p>例如</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">deploy:</span><br><span class="line">  type: git</span><br><span class="line">  repo: git@github.com:GJnghost&#x2F;GJnghost.github.io.git</span><br><span class="line">  branch: master</span><br></pre></td></tr></table></figure>
+</blockquote>
+<h2 id="使用Hexo主题"><a href="#使用Hexo主题" class="headerlink" title="使用Hexo主题"></a>使用Hexo主题</h2></li>
+</ul>
+<p>以Ayer主题为例</p>
+<h3 id="安装"><a href="#安装" class="headerlink" title="安装"></a>安装</h3><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line"># 国内用户如果速度较慢，可以把github地址替换为：https:&#x2F;&#x2F;gitee.com&#x2F;mirrors&#x2F;ayer.git</span><br><span class="line">git clone https:&#x2F;&#x2F;github.com&#x2F;Shen-Yu&#x2F;hexo-theme-ayer.git themes&#x2F;ayer</span><br></pre></td></tr></table></figure>
+<p>将原来的配置文件移动到根目录，并重命名为<code>_config.ayer.yml</code></p>
+<h3 id="修改"><a href="#修改" class="headerlink" title="修改"></a>修改</h3><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">theme: ayer</span><br></pre></td></tr></table></figure>
+<h3 id="更新"><a href="#更新" class="headerlink" title="更新"></a>更新</h3><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">npm update hexo-theme-ayer -S</span><br></pre></td></tr></table></figure>
+<h3 id="发布"><a href="#发布" class="headerlink" title="发布"></a>发布</h3><p>在根目录下，右键打开【Git Bash Here】，执行下面命令：</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">hexo d -g #在部署前先生成</span><br></pre></td></tr></table></figure>
+
+
+<h3 id="插件（必需）"><a href="#插件（必需）" class="headerlink" title="插件（必需）"></a>插件（必需）</h3><ul>
+<li><p><a href="https://github.com/theme-next/hexo-generator-searchdb">hexo-generator-searchdb</a> 用于搜索</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">npm install hexo-generator-searchdb --save</span><br></pre></td></tr></table></figure>
+<p>然后将以下配置复制到你博客根目录下的 <code>_config.yml</code> 里（注意不是ayer.xml）:</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line"># hexo-generator-searchdb</span><br><span class="line">search:</span><br><span class="line">  path: search.xml</span><br><span class="line">  field: post</span><br><span class="line">  format: html</span><br></pre></td></tr></table></figure></li>
+<li><p><a href="https://github.com/hexojs/hexo-generator-feed">hexo-generator-feed</a> 用于生成RSS订阅</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">COPYnpm install hexo-generator-feed --save</span><br></pre></td></tr></table></figure>
+<p>然后将以下配置复制到你博客根目录下的 <code>_config.yml</code> 里（注意不是ayer.xml）:</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">feed:</span><br><span class="line">    type: atom</span><br><span class="line">    path: atom.xml</span><br><span class="line">    limit: 20</span><br><span class="line">    hub:</span><br><span class="line">    content:</span><br><span class="line">    content_limit: 140</span><br><span class="line">    content_limit_delim: &#39; &#39;</span><br><span class="line">    order_by: -date	</span><br></pre></td></tr></table></figure>
+<h3 id="插件（可选）"><a href="#插件（可选）" class="headerlink" title="插件（可选）"></a>插件（可选）</h3></li>
+<li><p><a href="https://github.com/netcan/hexo-generator-index-pin-top">hexo-generator-index-pin-top</a> 用于文章置顶</p>
+</li>
+<li><p><a href="https://github.com/MikeCoder/hexo-blog-encrypt/blob/master/ReadMe.zh.md">hexo-blog-encrypt</a> 用于文章加密</p>
+</li>
+<li><p><a href="https://github.com/MoePlayer/hexo-tag-aplayer/blob/master/docs/README-zh_cn.md">hexo-tag-aplayer</a> 用于播放音乐</p>
+</li>
+<li><p><a href="https://github.com/MoePlayer/hexo-tag-dplayer">hexo-tag-dplayer</a> 用于播放视频</p>
+</li>
+<li><p><a href="https://github.com/EYHN/hexo-helper-live2d/blob/master/README.zh-CN.md">hexo-helper-live2d</a> 二次元看板娘</p>
+</li>
+</ul>
+<p>更多插件请见 <a href="https://hexo.io/plugins/">hexo插件市场</a></p>
+<h3 id="分类"><a href="#分类" class="headerlink" title="分类"></a>分类</h3><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">hexo new page categories</span><br></pre></td></tr></table></figure>
+<p>然后将以下复制到 /source/categories/index.md 文件</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">---</span><br><span class="line">title: categories</span><br><span class="line">type: &quot;categories&quot;</span><br><span class="line">layout: &quot;categories&quot;</span><br><span class="line">---</span><br></pre></td></tr></table></figure>
+<h3 id="标签"><a href="#标签" class="headerlink" title="标签"></a>标签</h3><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">hexo new page tags</span><br></pre></td></tr></table></figure>
+<p>然后将以下复制到 /source/tags/index.md 文件</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">---</span><br><span class="line">title: tags</span><br><span class="line">type: &quot;tags&quot;</span><br><span class="line">layout: &quot;tags&quot;</span><br><span class="line">---</span><br></pre></td></tr></table></figure>
+<h3 id="友情链接"><a href="#友情链接" class="headerlink" title="友情链接"></a>友情链接</h3><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">COPYhexo new page friends</span><br></pre></td></tr></table></figure>
+<p>然后将以下复制到 /source/friends/index.md 文件</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">---</span><br><span class="line">title: friends</span><br><span class="line">type: friends</span><br><span class="line">layout: &quot;friends&quot;</span><br><span class="line">---</span><br></pre></td></tr></table></figure>
+<p>然后在 ayer 主题目录下的 <code>_config.yml</code> 中自定义 <code>friends_link</code> 配置项即可</p>
+<h3 id="文章目录"><a href="#文章目录" class="headerlink" title="文章目录"></a>文章目录</h3><p>用 Tocbot 解析文章标题并生成目录。当然你可能并不想所有文章都生成悬浮目录，你可以在文章顶部的配置中加一行来进行关闭：</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">---</span><br><span class="line">no_toc: true</span><br><span class="line">---</span><br></pre></td></tr></table></figure>
+<h3 id="一些其他的"><a href="#一些其他的" class="headerlink" title="一些其他的"></a>一些其他的</h3><h4 id="图片引用"><a href="#图片引用" class="headerlink" title="图片引用"></a>图片引用</h4><p>推荐图床：<a href="https://sm.ms/">SM.MS</a></p>
+<blockquote>
+<p>TQL!!!</p>
+</blockquote>
+<h4 id="修改大标题和站点信息"><a href="#修改大标题和站点信息" class="headerlink" title="修改大标题和站点信息"></a>修改大标题和站点信息</h4><p>站点配置文件 <code>_config.yml</code> 是 Hexo 站点根目录下的主配置文件，注意：不是<code>_config.ayer.xml</code></p>
+<p>修改网站各种资料，例如标题、副标题和邮箱等个人资料，请修改 Hexo 博客目录下的 <code>_config.yml</code></p>
+<blockquote>
+<p>例如：</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line"># Site</span><br><span class="line">title: Gghost</span><br><span class="line">SEOTitle: 耹也的博客 | GJ Blog</span><br><span class="line">subtitle: &#39;剔透&#39;</span><br><span class="line">description: &#39;No can, but will.&#39; </span><br><span class="line">email: 1766933911@qq.com</span><br><span class="line">keywords: &quot;学习,兴趣,旅行,代码,博客&quot;</span><br><span class="line">author: Gghost</span><br><span class="line">language: zh-Hans</span><br><span class="line">timezone: Asia&#x2F;Shanghai</span><br></pre></td></tr></table></figure>
+</blockquote>
+<h4 id="百度统计"><a href="#百度统计" class="headerlink" title="百度统计"></a>百度统计</h4><p>在百度统计中创建</p>
+<p>在<code>_config.ayer.xml</code>中的 <code>baidu_analytics</code> 填上百度统计代码中的 <code>hm.js?</code> 后面那一串东西</p>
+<h2 id="域名更换"><a href="#域名更换" class="headerlink" title="域名更换"></a>域名更换</h2>]]></content>
+      <categories>
+        <category>Blog</category>
+      </categories>
+      <tags>
+        <tag>Blog</tag>
+        <tag>Github</tag>
       </tags>
   </entry>
 </search>
