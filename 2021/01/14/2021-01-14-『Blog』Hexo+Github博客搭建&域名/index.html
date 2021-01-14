@@ -92,7 +92,7 @@ var _hmt = _hmt || [];
         <span class="post-meta-item-icon">
             <i class="ri-quill-pen-line"></i>
             <span class="post-meta-item-text"> Word count:</span>
-            <span class="post-count">1.4k</span>
+            <span class="post-count">1.7k</span>
         </span>
     </span>
 
@@ -101,7 +101,7 @@ var _hmt = _hmt || [];
         <span class="post-meta-item-icon">
             <i class="ri-book-open-line"></i>
             <span class="post-meta-item-text"> Reading time≈</span>
-            <span class="post-count">5 min</span>
+            <span class="post-count">7 min</span>
         </span>
     </span>
 </div>
@@ -227,6 +227,11 @@ var _hmt = _hmt || [];
 </li>
 <li><p>打开Github，个人的【Settings】，在【SSH and GPG keys】中的【SSH keys】中选择【New SSH key】，将上一步的数据粘贴进去</p>
 </li>
+<li><p>测试</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">ssh -T git@github.com</span><br></pre></td></tr></table></figure>
+<p>若显示以下结果则成功</p>
+<p><img src="https://i.loli.net/2021/01/14/an9oDU6BG8TseCj.png" alt="QQ图片20210114185519.png"></p>
+</li>
 </ul>
 <h3 id="配置Deployment"><a href="#配置Deployment" class="headerlink" title="配置Deployment"></a>配置Deployment</h3><ul>
 <li><p>在根目录的<code>_config.yml</code>文件中，找到Deployment，按如下修改</p>
@@ -244,8 +249,18 @@ var _hmt = _hmt || [];
 <h3 id="更新"><a href="#更新" class="headerlink" title="更新"></a>更新</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm update hexo-theme-ayer -S</span><br></pre></td></tr></table></figure>
 <h3 id="发布"><a href="#发布" class="headerlink" title="发布"></a>发布</h3><p>在根目录下，右键打开【Git Bash Here】，执行下面命令：</p>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo d -g #在部署前先生成</span><br></pre></td></tr></table></figure>
-
-
+<p><img src="https://i.loli.net/2021/01/14/DSYjTCcfnGEtFwZ.png" alt="QQ图片20210114184027.png"></p>
+<p>部署成功后访问 <a target="_blank" rel="noopener" href="http://www.gjnghost.github.io/">http://www.gjnghost.github.io</a> 即可</p>
+<ul>
+<li><p>于是被提醒</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">deloyer not found:git</span><br></pre></td></tr></table></figure>
+<p>需要提前安装一个扩展</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm install hexo-deployer-git --save</span><br></pre></td></tr></table></figure></li>
+<li><p>于是又出现了以下错误</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">Permission denied (publickey).</span><br><span class="line">fatal: Could not read from remote repository.</span><br><span class="line">Please make sure you have the correct access rights</span><br><span class="line">and the repository exists.</span><br></pre></td></tr></table></figure>
+<p>那就是上述的SSH并没有完成相关配置</p>
+</li>
+</ul>
 <h3 id="插件（必需）"><a href="#插件（必需）" class="headerlink" title="插件（必需）"></a>插件（必需）</h3><ul>
 <li><p><a target="_blank" rel="noopener" href="https://github.com/theme-next/hexo-generator-searchdb">hexo-generator-searchdb</a> 用于搜索</p>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm install hexo-generator-searchdb --save</span><br></pre></td></tr></table></figure>
@@ -292,7 +307,18 @@ var _hmt = _hmt || [];
 </blockquote>
 <h4 id="百度统计"><a href="#百度统计" class="headerlink" title="百度统计"></a>百度统计</h4><p>在百度统计中创建</p>
 <p>在<code>_config.ayer.xml</code>中的 <code>baidu_analytics</code> 填上百度统计代码中的 <code>hm.js?</code> 后面那一串东西</p>
-<h2 id="域名更换"><a href="#域名更换" class="headerlink" title="域名更换"></a>域名更换</h2> 
+<h2 id="域名更换"><a href="#域名更换" class="headerlink" title="域名更换"></a>域名更换</h2><h3 id="域名购买"><a href="#域名购买" class="headerlink" title="域名购买"></a>域名购买</h3><p>好废话！（捧读</p>
+<h3 id="域名解析"><a href="#域名解析" class="headerlink" title="域名解析"></a>域名解析</h3><ul>
+<li><p>windows 下直接在 cmd 里 Ping 一下自己的博客就会得到自己 github 的二级域名的 IP地址：</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">ping username.github.io #username为自己的github用户名</span><br></pre></td></tr></table></figure></li>
+<li><p>进入阿里云的管理控制台-域名与网站-云解析 DNS，进入域名的解析设置，点击新手指导，将得到的 IP 地址填到记录值一栏，点击确定就 OK 了。记录值就是自己 github 的二级域名的 IP地址。</p>
+</li>
+</ul>
+<h3 id="设置CNAME"><a href="#设置CNAME" class="headerlink" title="设置CNAME"></a>设置CNAME</h3><p>在本地Hexo根目录下的source 文件夹中创建 CNAME 文件（无后缀），在里面写入购买的域名，如图所示：</p>
+<p><img src="https://i.loli.net/2021/01/14/FROSperM3XUvfgj.png" alt="QQ图片20210114190655.png"></p>
+<h3 id="设置GitHub-Pages"><a href="#设置GitHub-Pages" class="headerlink" title="设置GitHub Pages"></a>设置GitHub Pages</h3><p>打开 username.github.io 项目的（Settings）设置，然后在 GitHub Pages的 Custom domain设置里填入购买的域名，如图所示：</p>
+<p><img src="https://i.loli.net/2021/01/14/s79NgPmicUrLadE.png" alt="QQ图片20210114190655.png"></p>
+ 
       <!-- reward -->
       
     </div>
