@@ -6,7 +6,7 @@
   <link href="http://gjnghost.top/atom.xml" rel="self"/>
   
   <link href="http://gjnghost.top/"/>
-  <updated>2021-01-15T15:45:47.946Z</updated>
+  <updated>2021-01-15T15:51:16.328Z</updated>
   <id>http://gjnghost.top/</id>
   
   <author>
@@ -21,23 +21,27 @@
     <link href="http://gjnghost.top/2021/01/15/2021-01-15-%E3%80%8EEssay%E3%80%8FRecord-Lists/"/>
     <id>http://gjnghost.top/2021/01/15/2021-01-15-%E3%80%8EEssay%E3%80%8FRecord-Lists/</id>
     <published>2021-01-14T16:00:00.000Z</published>
-    <updated>2021-01-15T15:45:47.946Z</updated>
+    <updated>2021-01-15T15:51:16.328Z</updated>
     
     
     <summary type="html">&lt;blockquote&gt;
-&lt;p&gt;手帐里的MOVIE LIST因为不太看电影的缘故改成了Recommended Lists，想了想倒也可以更新在这里，又想了想Recommend又太自我了，于是改成了Record List，记录个人&lt;/p&gt;
+&lt;p&gt;手帐里的MOVIE LIST因为不太看电影的缘故改成了Recommended Lists，想了想倒也可以更新在这里，又想了想Recommend又太自我了，于是改成了Record List，记录个人（年初总结&lt;/p&gt;
 &lt;p&gt;&lt;del&gt;老婆是共享的&lt;/del&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;p&gt;&lt;img src=&quot;https://i.loli.net/2021/01/15/p5oKDFaIjvbdzHx.png&quot; alt=&quot;QQ截图20210115212243.png&quot;&gt;&lt;/p&gt;</summary>
     
     
     
-    <category term="Life/Essay" scheme="http://gjnghost.top/categories/Life-Essay/"/>
+    <category term="Life" scheme="http://gjnghost.top/categories/Life/"/>
+    
+    <category term="Essay" scheme="http://gjnghost.top/categories/Life/Essay/"/>
     
     
     <category term="Essay" scheme="http://gjnghost.top/tags/Essay/"/>
     
     <category term="Life" scheme="http://gjnghost.top/tags/Life/"/>
+    
+    <category term="Record" scheme="http://gjnghost.top/tags/Record/"/>
     
   </entry>
   
@@ -46,7 +50,7 @@
     <link href="http://gjnghost.top/2021/01/14/2021-01-14-%E3%80%8EBlog%E3%80%8FHexo+Github%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA&amp;%E5%9F%9F%E5%90%8D/"/>
     <id>http://gjnghost.top/2021/01/14/2021-01-14-%E3%80%8EBlog%E3%80%8FHexo+Github%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA&amp;%E5%9F%9F%E5%90%8D/</id>
     <published>2021-01-13T16:00:00.000Z</published>
-    <updated>2021-01-15T15:45:13.352Z</updated>
+    <updated>2021-01-15T15:49:44.176Z</updated>
     
     
     <summary type="html">&lt;blockquote&gt;
@@ -58,7 +62,9 @@
     
     
     
-    <category term=" Study / Blog " scheme="http://gjnghost.top/categories/Study-Blog/"/>
+    <category term="Study" scheme="http://gjnghost.top/categories/Study/"/>
+    
+    <category term="Blog" scheme="http://gjnghost.top/categories/Study/Blog/"/>
     
     
     <category term="Blog" scheme="http://gjnghost.top/tags/Blog/"/>
@@ -72,7 +78,7 @@
     <link href="http://gjnghost.top/2021/01/12/2021-01-12-%E3%80%8EProfessional%20course%E3%80%8F%E8%BD%AF%E4%BB%B6%E5%B7%A5%E7%A8%8B%E5%9F%BA%E7%A1%80%E6%9C%9F%E6%9C%AB%E5%A4%8D%E4%B9%A0/"/>
     <id>http://gjnghost.top/2021/01/12/2021-01-12-%E3%80%8EProfessional%20course%E3%80%8F%E8%BD%AF%E4%BB%B6%E5%B7%A5%E7%A8%8B%E5%9F%BA%E7%A1%80%E6%9C%9F%E6%9C%AB%E5%A4%8D%E4%B9%A0/</id>
     <published>2021-01-11T16:00:00.000Z</published>
-    <updated>2021-01-14T06:46:59.409Z</updated>
+    <updated>2021-01-15T15:50:27.805Z</updated>
     
     
     <summary type="html">&lt;blockquote&gt;
@@ -82,7 +88,9 @@
     
     
     
-    <category term="Professional course" scheme="http://gjnghost.top/categories/Professional-course/"/>
+    <category term="Study" scheme="http://gjnghost.top/categories/Study/"/>
+    
+    <category term="Professional course" scheme="http://gjnghost.top/categories/Study/Professional-course/"/>
     
     
     <category term="Professional course" scheme="http://gjnghost.top/tags/Professional-course/"/>
