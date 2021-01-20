@@ -1347,12 +1347,12 @@ C) 国际软件质量认证                 D) 软件统一性标准</code></pre
 
 
 
-<h2 id="考试模块"><a href="#考试模块" class="headerlink" title="考试模块"></a>考试模块</h2><div style="width: 90%;margin: 0 auto">
-    <canvas id="chart6053" style="height: 300px"></canvas>
+<h2 id="科目分析"><a href="#科目分析" class="headerlink" title="科目分析"></a>科目分析</h2><h3 id="考试模块"><a href="#考试模块" class="headerlink" title="考试模块"></a>考试模块</h3><div style="width: 90%;margin: 0 auto">
+    <canvas id="chart7426" style="height: 300px"></canvas>
 </div>
 <script src="https://cdn.jsdelivr.net/npm/chart.js@2.9.3/dist/Chart.min.js"></script>
 <script type="text/javascript">
-    var ctx = document.getElementById('chart6053').getContext('2d');
+    var ctx = document.getElementById('chart7426').getContext('2d');
     var options = {
 type: "pie",
    data: {
@@ -1386,7 +1386,95 @@ type: "pie",
    //options: options
 };
     new Chart(ctx, options);
-</script>]]></content>
+</script>
+
+
+
+<h3 id="考试题型"><a href="#考试题型" class="headerlink" title="考试题型"></a>考试题型</h3><table>
+<thead>
+<tr>
+<th align="center"></th>
+<th align="center">单选题</th>
+<th align="center">材料分析</th>
+<th align="center">写作</th>
+<th align="center">合计</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="center">职业理念</td>
+<td align="center">4*2分</td>
+<td align="center">1*14分</td>
+<td align="center"></td>
+<td align="center">22分</td>
+</tr>
+<tr>
+<td align="center">法律法规</td>
+<td align="center">8*2分</td>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center">16分</td>
+</tr>
+<tr>
+<td align="center">职业道德</td>
+<td align="center">4*2分</td>
+<td align="center">1*14分</td>
+<td align="center"></td>
+<td align="center">22分</td>
+</tr>
+<tr>
+<td align="center">文化素养</td>
+<td align="center">9*2分</td>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center">18分</td>
+</tr>
+<tr>
+<td align="center">基本能力</td>
+<td align="center">4*2分</td>
+<td align="center">1*14分</td>
+<td align="center">1*50分</td>
+<td align="center">72分</td>
+</tr>
+<tr>
+<td align="center">合计</td>
+<td align="center">58分</td>
+<td align="center">42分</td>
+<td align="center">50分</td>
+<td align="center">150分</td>
+</tr>
+<tr>
+<td align="center">预计</td>
+<td align="center">20~25/29</td>
+<td align="center">10~12/14</td>
+<td align="center">30~35/50</td>
+<td align="center">95分</td>
+</tr>
+</tbody></table>
+<h2 id="知识详解"><a href="#知识详解" class="headerlink" title="知识详解"></a>知识详解</h2><h3 id="模块一-职业理念"><a href="#模块一-职业理念" class="headerlink" title="模块一 职业理念"></a>模块一 职业理念</h3><h4 id="教育观"><a href="#教育观" class="headerlink" title="教育观"></a>教育观</h4><img src="https://i.loli.net/2021/01/21/JNLP9MWVqDbasyQ.png" alt="QQ截图20210121001105.png" style="zoom:67%;" />
+
+<h5 id="素质教育的内涵"><a href="#素质教育的内涵" class="headerlink" title="素质教育的内涵"></a>素质教育的内涵</h5><ol>
+<li>素质教育<strong>以提高国民素质为根本宗旨</strong> <code>【单】</code></li>
+<li>素质教育是<strong>面向全体学生</strong>的教育 <code>全体VS个例 (一视同仁/有教无类</code></li>
+<li>素质教育是促进学生<strong>全面发展</strong>的教育 <code>全面发展指德智体美劳；反例：重成绩而忽略其他；（每个同学都丰富了自己对……的看法</code></li>
+<li>素质教育是促进学生<strong>个性发展</strong>的教育 <code>特长</code></li>
+<li>素质教育是以培养学生的<strong>创新精神</strong>和<strong>实践能力</strong>为重点的教育 <code>【单】：考点一</code> <code>考点二：创新精神：上课提出新想法，老师的反应；实践能力：做，实践，操作</code><ul>
+<li>创新精神：①素质教育的核心 ②现代教育与传统教育的根本区别</li>
+</ul>
+</li>
+</ol>
+<ul>
+<li><p><strong>答题格式：</strong></p>
+<ol>
+<li>总分总</li>
+<li>3~4个观点</li>
+</ol>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">总：判断：XXX的做法符合新课程改革背景下的XX观</span><br><span class="line">分：</span><br><span class="line">首先，（采分点），（材料相关部分阐述）。</span><br><span class="line">其次，……，……。</span><br><span class="line">再次，……，……。</span><br><span class="line">总：综上所述，XXX关车了素质教育理念，树立了正确的XX观，促进每一个学生的发展。</span><br></pre></td></tr></table></figure>
+
+
+</li>
+</ul>
+<h4 id="学生观"><a href="#学生观" class="headerlink" title="学生观"></a>学生观</h4><h4 id="教师观"><a href="#教师观" class="headerlink" title="教师观"></a>教师观</h4><hr>
+]]></content>
       <categories>
         <category>Study</category>
         <category>教资考试相关</category>
