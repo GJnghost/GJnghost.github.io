@@ -1405,7 +1405,7 @@ C) 国际软件质量认证                 D) 软件统一性标准</code></pre
   </entry>
   <entry>
     <title>『教资考试』综合素质（UPDATING…</title>
-    <url>/2021/01/20/2021-01-20-%E3%80%8E%E6%95%99%E8%B5%84%E8%80%83%E8%AF%95%E3%80%8F%E7%BB%BC%E5%90%88%E7%B4%A0%E8%B4%A8/</url>
+    <url>/2021/01/20/2021-01-20-%E3%80%8E%E6%95%99%E8%B5%84%E8%80%83%E8%AF%95%E3%80%8F%E7%BB%BC%E5%90%88%E7%B4%A0%E8%B4%A8%EF%BC%88UPDATING%E2%80%A6/</url>
     <content><![CDATA[<blockquote>
 <p>目前的打算是先根据粉笔的视频梳理一遍知识点和有关模块，再针对作文进行相应的学习。之后就是刷真题啦~</p>
 </blockquote>
@@ -1415,11 +1415,11 @@ C) 国际软件质量认证                 D) 软件统一性标准</code></pre
 
 
 <h1 id="科目分析"><a href="#科目分析" class="headerlink" title="科目分析"></a>科目分析</h1><h2 id="考试模块"><a href="#考试模块" class="headerlink" title="考试模块"></a>考试模块</h2><div style="width: 90%;margin: 0 auto">
-    <canvas id="chart1220" style="height: 300px"></canvas>
+    <canvas id="chart3781" style="height: 300px"></canvas>
 </div>
 <script src="https://cdn.jsdelivr.net/npm/chart.js@2.9.3/dist/Chart.min.js"></script>
 <script type="text/javascript">
-    var ctx = document.getElementById('chart1220').getContext('2d');
+    var ctx = document.getElementById('chart3781').getContext('2d');
     var options = {
 type: "pie",
    data: {
@@ -1518,7 +1518,72 @@ type: "pie",
 </tr>
 </tbody></table>
 <hr>
-<h1 id="知识详解"><a href="#知识详解" class="headerlink" title="知识详解"></a>知识详解</h1><h2 id="模块一-职业理念"><a href="#模块一-职业理念" class="headerlink" title="模块一 职业理念"></a>模块一 职业理念</h2><h3 id="教育观"><a href="#教育观" class="headerlink" title="教育观"></a>教育观</h3><p><img src="https://i.loli.net/2021/01/27/HorwUTjGDsCF9bh.png" alt="QQ截图20210127160152.png"></p>
+<h1 id="知识详解"><a href="#知识详解" class="headerlink" title="知识详解"></a>知识详解</h1><table>
+<thead>
+<tr>
+<th align="center">模块名称</th>
+<th align="center">主要内容</th>
+<th align="center">考察重点</th>
+<th align="center">题型</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="center">职业理念</td>
+<td align="center">教育观<br />（9）</td>
+<td align="center">素质教育内涵（5|提素个性创两全）<br />新课改背景下的教学观（4|学习过人）</td>
+<td align="center">单选+<br />材料</td>
+</tr>
+<tr>
+<td align="center"></td>
+<td align="center">学生观<br />（5|两独一发+两全）</td>
+<td align="center">以人为本的学生观（3）<br />教育公平<br />全面发展</td>
+<td align="center">单选+<br />材料</td>
+</tr>
+<tr>
+<td align="center"></td>
+<td align="center">教师观<br />（8）</td>
+<td align="center">新课改背景下的教师角色的转变（4|建研放促）<br />新课改背景下的教师行为的转变（4|你它我他）</td>
+<td align="center">单选+<br />材料</td>
+</tr>
+<tr>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center"></td>
+</tr>
+</tbody></table>
+<h2 id="模块一-职业理念"><a href="#模块一-职业理念" class="headerlink" title="模块一 职业理念"></a>模块一 职业理念</h2><table>
+<thead>
+<tr>
+<th align="center">主要内容</th>
+<th align="center">考察重点</th>
+<th align="center">题型</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="center">教育观（9）<br />【考点①】</td>
+<td align="center">素质教育内涵（5|提素个性创两全）<br />新课改背景下的教学观（4|学习过人）</td>
+<td align="center">单选+<br />材料</td>
+</tr>
+<tr>
+<td align="center">学生观<br />（5|两独一发+两全）<br />【考点②】</td>
+<td align="center">以人为本的学生观（3）<br />教育公平<br />全面发展</td>
+<td align="center">单选+<br />材料</td>
+</tr>
+<tr>
+<td align="center">教师观（8）<br />【考点③】</td>
+<td align="center">新课改背景下的教师角色的转变（4|建研放促）<br />新课改背景下的教师行为的转变（4|你它我他）</td>
+<td align="center">单选+<br />材料</td>
+</tr>
+</tbody></table>
+<ul>
+<li>【考点④】考职业理念时<ul>
+<li>至少两观以上</li>
+<li>以观为单位，作为分论点讨论</li>
+</ul>
+</li>
+</ul>
+<h3 id="教育观"><a href="#教育观" class="headerlink" title="教育观"></a>教育观</h3><p><img src="https://i.loli.net/2021/02/06/Z7KRbAdVQitPHCW.png" alt="QQ截图20210206142525.png"></p>
 <h4 id="素质教育的内涵"><a href="#素质教育的内涵" class="headerlink" title="素质教育的内涵"></a>素质教育的内涵</h4><blockquote>
 <ul>
 <li>口诀：提素个性创两全</li>
@@ -1550,7 +1615,7 @@ type: "pie",
 </ul>
 </li>
 </ol>
-<h4 id="素质教育的实施途径"><a href="#素质教育的实施途径" class="headerlink" title="素质教育的实施途径"></a>素质教育的实施途径</h4><p>中观——新课程改革的推进</p>
+<h4 id="素质教育的实施途径"><a href="#素质教育的实施途径" class="headerlink" title="素质教育的实施途径"></a>素质教育的实施途径</h4><p><strong>中观——新课程改革的推进</strong></p>
 <ol>
 <li><p>新课改的具体目标</p>
 <table>
@@ -1669,7 +1734,286 @@ type: "pie",
 <p>反例：只关注学科知识，忽略学生情感体验</p>
 </li>
 </ol>
-<h3 id="学生观"><a href="#学生观" class="headerlink" title="学生观"></a>学生观</h3><h4 id="以人为本的学生观"><a href="#以人为本的学生观" class="headerlink" title="以人为本的学生观"></a>以人为本的学生观</h4><h4 id="全面发展的内涵"><a href="#全面发展的内涵" class="headerlink" title="全面发展的内涵"></a>全面发展的内涵</h4><h4 id="教育公正"><a href="#教育公正" class="headerlink" title="教育公正"></a>教育公正</h4><h4 id="案例分析总结-1"><a href="#案例分析总结-1" class="headerlink" title="案例分析总结"></a>案例分析总结</h4><h3 id="教师观"><a href="#教师观" class="headerlink" title="教师观"></a>教师观</h3><h4 id="教师职业的劳动特征"><a href="#教师职业的劳动特征" class="headerlink" title="教师职业的劳动特征"></a>教师职业的劳动特征</h4><h4 id="新课程改革背景下的教师观"><a href="#新课程改革背景下的教师观" class="headerlink" title="新课程改革背景下的教师观"></a>新课程改革背景下的教师观</h4><h4 id="教师专业发展"><a href="#教师专业发展" class="headerlink" title="教师专业发展"></a>教师专业发展</h4><h4 id="案例分析总结-2"><a href="#案例分析总结-2" class="headerlink" title="案例分析总结"></a>案例分析总结</h4><hr>
+<h3 id="学生观"><a href="#学生观" class="headerlink" title="学生观"></a>学生观</h3><p><img src="https://i.loli.net/2021/02/06/hd92spokPGr3W7w.png" alt="QQ截图20210206143806.png"></p>
+<h4 id="以人为本的学生观"><a href="#以人为本的学生观" class="headerlink" title="以人为本的学生观"></a>以人为本的学生观</h4><ol>
+<li><p>学生是发展的人</p>
+<ul>
+<li><p>学生的身心发展具有规律性 <code>【单】</code></p>
+<table>
+<thead>
+<tr>
+<th align="center">规律名称</th>
+<th align="left">内涵表现</th>
+<th align="center">教育启示</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="center">顺序性</td>
+<td align="left">个性身心发展是一个由低级到高级、简单到复杂、由量变到质变的过程</td>
+<td align="center">循序渐进</td>
+</tr>
+<tr>
+<td align="center">阶段性</td>
+<td align="left">个体在不同的年龄阶段表现出身心发展不同的总体特征及主要矛盾，面临着不同的发展任务</td>
+<td align="center">不搞成人化</td>
+</tr>
+<tr>
+<td align="center">不平衡性<br/><code>速度</code></td>
+<td align="left">同一方面不匀速 <code>记忆力 25vs40</code>，不同方面不同步 <code>身高vs体重</code></td>
+<td align="center">抓“关键期”</td>
+</tr>
+<tr>
+<td align="center">互补性</td>
+<td align="left">生理机能与生理机能之间、生理机能和心理机能之间可以互相弥补 <code>眼盲耳聪，身残志坚</code></td>
+<td align="center">扬长避短</td>
+</tr>
+<tr>
+<td align="center">个别差异性</td>
+<td align="left">不同个体、群体之间的发展具有差异性 <code>人心不同，各如其面</code></td>
+<td align="center">因材施教</td>
+</tr>
+</tbody></table>
+</li>
+<li><p>学生具有巨大的发展潜能 <code>【案】</code></p>
+<blockquote>
+<p>可塑</p>
+</blockquote>
+</li>
+<li><p>学生是处于发展过程中的人 <code>【案】</code></p>
+<blockquote>
+<p>容错</p>
+</blockquote>
+</li>
+</ul>
+</li>
+<li><p>学生是独特的人</p>
+<ul>
+<li><p>学生是完整的人</p>
+</li>
+<li><p>每个学生都有自身的独特性 <code>【案】</code></p>
+<blockquote>
+<p>两人不一样，因材施教</p>
+</blockquote>
+</li>
+<li><p>学生与成人之间存在巨大的差异性 <code>【案】</code></p>
+</li>
+</ul>
+</li>
+<li><p>学生是具有独立意义的人 <code>【案】</code></p>
+<ul>
+<li><p>学生是不以教师的意志为转移的客观存在</p>
+<blockquote>
+<p>想法（学生产生）——&gt;（教师）尊重观点</p>
+</blockquote>
+</li>
+<li><p>学生是学习的主体</p>
+<blockquote>
+<p>主动</p>
+</blockquote>
+</li>
+<li><p>学生是责权的主体</p>
+<blockquote>
+<p>权利</p>
+</blockquote>
+</li>
+</ul>
+</li>
+</ol>
+<h4 id="全面发展的内涵"><a href="#全面发展的内涵" class="headerlink" title="全面发展的内涵"></a>全面发展的内涵</h4><blockquote>
+<ul>
+<li>单选：地位</li>
+<li>案例：重成绩而忽略其他</li>
+</ul>
+</blockquote>
+<ul>
+<li>德育：灵魂与统帅</li>
+<li>智育：前提和支持</li>
+<li>体育：物质基础</li>
+<li>美育：动力作用</li>
+<li>劳动技术教育：其他各育德特殊保障 <code>综合</code></li>
+</ul>
+<h4 id="教育公正"><a href="#教育公正" class="headerlink" title="教育公正"></a>教育公正</h4><blockquote>
+<ul>
+<li>单选：机会均等</li>
+<li>案例：公正待生，面向全体</li>
+</ul>
+</blockquote>
+<ul>
+<li>教育公正：在教育活动中的体现，就是所有的学生都能够获得同样的教育机会，或者说教育机会对所有的学生来说是均等的</li>
+<li>教育机会均等：入学机会均等 + 教育过程中机会均等 <code>例如，初升高、是否升高、升普高还是中职的权利</code></li>
+</ul>
+<h4 id="案例分析总结-1"><a href="#案例分析总结-1" class="headerlink" title="案例分析总结"></a>案例分析总结</h4><ol>
+<li><p>学生是发展的人——学生是处于发展过程中的人，具有巨大的发展潜力</p>
+<p>正例：可塑、容错</p>
+<p>反例：发现学生问题，立即处罚，不相信学生会进步</p>
+</li>
+<li><p>学生是独特的人——每个学生都有自身的独特性</p>
+<p>正例：正视个体差异，因材施教</p>
+<p>反例：未能针对问题进行个别处理</p>
+</li>
+<li><p>学生是具有独立意义的人——每个学生都是独立于教师的头脑之外，不以教师的意志为转移的客观存在</p>
+<p>正例：有想法，采纳意见</p>
+<p>反例：拒绝采纳，侮辱学生</p>
+</li>
+<li><p>促进<u>全面</u>发展</p>
+</li>
+<li><p>教育<u>公正</u>，面向全体学生</p>
+<p>一视同仁</p>
+</li>
+</ol>
+<h3 id="教师观"><a href="#教师观" class="headerlink" title="教师观"></a>教师观</h3><p><img src="https://i.loli.net/2021/02/06/QmCcdXqER83Shwk.png" alt="QQ截图20210206155832.png"></p>
+<h4 id="教师职业的劳动特征"><a href="#教师职业的劳动特征" class="headerlink" title="教师职业的劳动特征"></a>教师职业的劳动特征</h4><blockquote>
+<p>单选、概念、例子</p>
+</blockquote>
+<ol>
+<li><p>复杂性和创造性</p>
+<blockquote>
+<p>因为复杂，所以需要创造</p>
+</blockquote>
+<p>复杂性：目的的全面性，任务的多样性，对象的差异性 <code>3多</code></p>
+<p>创造性：因材施教，教学方法上的不断更新，“教育机智” <code>变</code></p>
+<blockquote>
+<p>教学方法上的不断更新：教学有法，但无定法</p>
+<p>“教育机智”：突发事件的处理</p>
+</blockquote>
+</li>
+<li><p>劳动时间的延续性和劳动空间的广延性</p>
+<blockquote>
+<p>时间的延续性：工作时间从早到晚</p>
+<p>空间的广延性：校内—校外（家访、社会实践等</p>
+</blockquote>
+</li>
+<li><p>长期性和间接性</p>
+<blockquote>
+<p>长期性：培养人才周期长（百年树人</p>
+<p>间接性：通过学生创造价值</p>
+</blockquote>
+</li>
+<li><p>主体性和示范性</p>
+<blockquote>
+<p>只考后者（学高为师，身正为范，师德是一面镜子等</p>
+</blockquote>
+</li>
+<li><p>个体性和群体性</p>
+<blockquote>
+<p>桃李满天下</p>
+</blockquote>
+</li>
+</ol>
+<h4 id="新课程改革背景下的教师观"><a href="#新课程改革背景下的教师观" class="headerlink" title="新课程改革背景下的教师观"></a>新课程改革背景下的教师观</h4><ul>
+<li><p>教师<strong>角色</strong>的转变</p>
+<blockquote>
+<p>口诀：建研放促</p>
+</blockquote>
+<ol>
+<li><p>从教师与学生的关系看，新课程要求教师应该是<u>学生学习的引导者和发展的促进者</u> <code>【案】</code></p>
+<blockquote>
+<p>发展：品德</p>
+</blockquote>
+</li>
+<li><p>从教学与课程的关系看，新课程要求教师应该是<u>课程的建设者和开发者</u> <code>【单】</code></p>
+<blockquote>
+<p>（非主科目）参与新课程，开发新课程</p>
+</blockquote>
+</li>
+<li><p>从教学与研究的关系看，新课程要求教师应该是<u>教育教学的研究者</u> <code>【案】</code></p>
+<blockquote>
+<p>（教育教学）问题的研究者</p>
+</blockquote>
+</li>
+<li><p>从学校与社区的关系看，新课程要求教师应该是<u>社区型的开放教师</u></p>
+<blockquote>
+<p>校内—&gt;校外</p>
+</blockquote>
+</li>
+</ol>
+</li>
+<li><p>教师<strong>行为</strong>的转变</p>
+<blockquote>
+<p>口诀：你它我他</p>
+</blockquote>
+<ol>
+<li><p>在对待<u>师生关系</u>上，新课程强调<u>尊重、赞赏</u></p>
+<blockquote>
+<p>尊重：人格尊严</p>
+<p>赞赏：夸</p>
+<p>总结一字：忍 QAQ</p>
+</blockquote>
+</li>
+<li><p>在对待<u>教学</u>上，新课程强调<u>帮助、引导</u></p>
+<blockquote>
+<p>启发</p>
+</blockquote>
+</li>
+<li><p>教师在对待<u>自我</u>上，新课程强调<u>反思</u></p>
+<blockquote>
+<p>教学前中后均需反思，针对个人问题</p>
+</blockquote>
+</li>
+<li><p>在对待与<u>其他教育者</u>的关系上，新课程强调<u>合作</u></p>
+</li>
+</ol>
+</li>
+</ul>
+<h4 id="教师专业发展"><a href="#教师专业发展" class="headerlink" title="教师专业发展"></a>教师专业发展</h4><blockquote>
+<p>单选、大标题</p>
+</blockquote>
+<ol>
+<li><p>教师专业发展的内容</p>
+<ul>
+<li>道德素养</li>
+<li>知识素养<ul>
+<li>政治理论修养 （毛概、马原</li>
+<li>学科专业知识 （本专业</li>
+<li>科学文化知识 （常识</li>
+<li>教育科学知识 （教育学、心理学</li>
+</ul>
+</li>
+<li>能力素养</li>
+<li>心理素养 （抗压</li>
+</ul>
+</li>
+<li><p>教师专业发展的阶段</p>
+<ul>
+<li><p>关注生存：关注人际关系</p>
+</li>
+<li><p>关注情境：关注教学情境</p>
+<blockquote>
+<p>成绩、备考</p>
+</blockquote>
+</li>
+<li><p>关注学生：关注学生的个别差异 <code>成熟的标志</code></p>
+</li>
+</ul>
+</li>
+<li><p>教师专业发展的途径及方法</p>
+<ul>
+<li><p>观摩和分析优秀教师的教学活动</p>
+</li>
+<li><p>开展微格教学</p>
+<blockquote>
+<p>概念：录微型课程并分析</p>
+</blockquote>
+</li>
+<li><p>进行专门训练</p>
+</li>
+<li><p>反思教学经验</p>
+<p>波斯纳教师成长公式：经验 + 反思 = 成长</p>
+<blockquote>
+<p>布鲁巴奇：四种反思方法：</p>
+<ul>
+<li>反思日记：个人经验</li>
+<li>详细描述：观察他人</li>
+<li>职业发展：学校为单位对问题的研究和探讨</li>
+<li>行动研究：个人为单位的问题+实践</li>
+</ul>
+</blockquote>
+</li>
+</ul>
+</li>
+</ol>
+<h4 id="案例分析总结-2"><a href="#案例分析总结-2" class="headerlink" title="案例分析总结"></a>案例分析总结</h4><p>详见【新课程改革背景下的教师观】8句话</p>
+<hr>
 ]]></content>
       <categories>
         <category>Study</category>
