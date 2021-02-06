@@ -1414,11 +1414,11 @@ C) 国际软件质量认证                 D) 软件统一性标准</code></pre
 
 <hr>
 <h1 id="科目分析"><a href="#科目分析" class="headerlink" title="科目分析"></a>科目分析</h1><h2 id="考试模块"><a href="#考试模块" class="headerlink" title="考试模块"></a>考试模块</h2><div style="width: 90%;margin: 0 auto">
-    <canvas id="chart6935" style="height: 300px"></canvas>
+    <canvas id="chart935" style="height: 300px"></canvas>
 </div>
 <script src="https://cdn.jsdelivr.net/npm/chart.js@2.9.3/dist/Chart.min.js"></script>
 <script type="text/javascript">
-    var ctx = document.getElementById('chart6935').getContext('2d');
+    var ctx = document.getElementById('chart935').getContext('2d');
     var options = {
 type: "pie",
    data: {
@@ -1554,7 +1554,7 @@ type: "pie",
 </ul>
 <br/>
 
-<h3 id="教育观"><a href="#教育观" class="headerlink" title="教育观"></a>教育观</h3><p><img src="https://i.loli.net/2021/02/06/Z7KRbAdVQitPHCW.png" alt="QQ截图20210206142525.png"></p>
+<h3 id="教育观"><a href="#教育观" class="headerlink" title="教育观"></a>教育观</h3><p><img src="https://i.loli.net/2021/02/06/Z7KRbAdVQitPHCW.png" alt="教育观"></p>
 <h4 id="素质教育的内涵"><a href="#素质教育的内涵" class="headerlink" title="素质教育的内涵"></a>素质教育的内涵</h4><blockquote>
 <ul>
 <li>口诀：提素个性创两全</li>
@@ -1710,7 +1710,7 @@ type: "pie",
 </ol>
 <br/>
 
-<h3 id="学生观"><a href="#学生观" class="headerlink" title="学生观"></a>学生观</h3><p><img src="https://i.loli.net/2021/02/06/hd92spokPGr3W7w.png" alt="QQ截图20210206143806.png"></p>
+<h3 id="学生观"><a href="#学生观" class="headerlink" title="学生观"></a>学生观</h3><p><img src="https://i.loli.net/2021/02/06/hd92spokPGr3W7w.png" alt="学生观"></p>
 <h4 id="以人为本的学生观"><a href="#以人为本的学生观" class="headerlink" title="以人为本的学生观"></a>以人为本的学生观</h4><ol>
 <li><p>学生是发展的人</p>
 <ul>
@@ -1845,7 +1845,7 @@ type: "pie",
 </ol>
 <br/>
 
-<h3 id="教师观"><a href="#教师观" class="headerlink" title="教师观"></a>教师观</h3><p><img src="https://i.loli.net/2021/02/06/QmCcdXqER83Shwk.png" alt="QQ截图20210206155832.png"></p>
+<h3 id="教师观"><a href="#教师观" class="headerlink" title="教师观"></a>教师观</h3><p><img src="https://i.loli.net/2021/02/06/QmCcdXqER83Shwk.png" alt="教师观"></p>
 <h4 id="教师职业的劳动特征"><a href="#教师职业的劳动特征" class="headerlink" title="教师职业的劳动特征"></a>教师职业的劳动特征</h4><blockquote>
 <p>单选、概念、例子</p>
 </blockquote>
