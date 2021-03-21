@@ -1344,6 +1344,7 @@ C) 国际软件质量认证                 D) 软件统一性标准</code></pre
     <url>/2021/03/21/2021-03-21-%E3%80%8E%E6%95%99%E8%B5%84%E8%80%83%E8%AF%95%E3%80%8F%E4%BF%A1%E6%81%AF%E6%8A%80%E6%9C%AF%E5%AD%A6%E7%A7%91%E7%9F%A5%E8%AF%86%E4%B8%8E%E6%95%99%E5%AD%A6%E8%83%BD%E5%8A%9B/</url>
     <content><![CDATA[<blockquote>
 <p>学科知识偏向高中信息技术，然后还要细一点，后部分……简答题直接放弃了，还剩案例和教学，……简答没考编程，案例考了简答，好家伙，原地去世</p>
+<p>（不能mermaid可太难过了</p>
 </blockquote>
 <p><img src="https://i.loli.net/2021/03/21/Z6dBiKeLHQgDrfz.jpg" alt="QQ图片20210113223204 _2_.jpg"></p>
 <a id="more"></a>
@@ -1398,8 +1399,11 @@ C) 国际软件质量认证                 D) 软件统一性标准</code></pre
 </ul>
 </li>
 </ul>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">graph TD</span><br><span class="line">A[导入原则]--&gt;B[针对性]</span><br><span class="line">A--&gt;C[趣味性]</span><br><span class="line">A--&gt;D[简洁性]</span><br><span class="line">A--&gt;E[启发性]</span><br><span class="line">B---b[新知相关]</span><br><span class="line">C---c1[引起兴趣]</span><br><span class="line">C---c2[生活经验相关]</span><br><span class="line">D---d1[控制时间]</span><br><span class="line">D---d2[言简意赅]</span><br><span class="line">E---e1[引发思考]</span><br><span class="line">E---e2[认知冲突]</span><br><span class="line">E---e3[建立铺垫]</span><br></pre></td></tr></table></figure>
+<p><img src="https://i.loli.net/2021/03/21/zURKvlnkewpVZjG.png" alt="QQ截图20210321225452.png"></p>
 <h3 id="2、新课讲授"><a href="#2、新课讲授" class="headerlink" title="2、新课讲授"></a>2、新课讲授</h3><h3 id="3、巩固提高"><a href="#3、巩固提高" class="headerlink" title="3、巩固提高"></a>3、巩固提高</h3><h3 id="4、小结作业"><a href="#4、小结作业" class="headerlink" title="4、小结作业"></a>4、小结作业</h3><h2 id="其他"><a href="#其他" class="headerlink" title="其他"></a>其他</h2><h3 id="错误原因类解题思路"><a href="#错误原因类解题思路" class="headerlink" title="错误原因类解题思路"></a>错误原因类解题思路</h3><p>案例中学生利用____的做法，但学生在运算过程中，存在的问题是____，该教师应该这样做：①____。②____。③____。</p>
+<br/>
+
+<hr>
 <h1 id="教学设计"><a href="#教学设计" class="headerlink" title="教学设计"></a>教学设计</h1><h2 id="Ⅰ-教案"><a href="#Ⅰ-教案" class="headerlink" title="Ⅰ 教案"></a>Ⅰ 教案</h2><p><img src="https://i.loli.net/2021/03/21/9gc3qTtzJMbkOyD.png" alt="image-20210308192725131.png"></p>
 <h3 id="一、教学目标"><a href="#一、教学目标" class="headerlink" title="一、教学目标"></a>一、教学目标</h3><h4 id="1、知识与技能"><a href="#1、知识与技能" class="headerlink" title="1、知识与技能"></a>1、知识与技能</h4><p>学生能够准确说出/区分/总结/制作______（知识/作品）。</p>
 <h4 id="2、过程与方法"><a href="#2、过程与方法" class="headerlink" title="2、过程与方法"></a>2、过程与方法</h4><p>通过_____（学法），建立起对_____的感性认识，锻炼/提高_____的能力。</p>
@@ -1451,7 +1455,9 @@ C) 国际软件质量认证                 D) 软件统一性标准</code></pre
 <p>②结合___________（材料），完成___________（任务），有能力的同学可以完成___________（任务）。</p>
 <p>（2）搜集类</p>
 <p>课下搜集相关资料，思考___________（问题），下节课分享。</p>
-<h3 id="四、板书设计"><a href="#四、板书设计" class="headerlink" title="四、板书设计"></a>四、板书设计</h3><hr>
+<h3 id="四、板书设计"><a href="#四、板书设计" class="headerlink" title="四、板书设计"></a>四、板书设计</h3><br/>
+
+<hr>
 ]]></content>
       <categories>
         <category>Study</category>
