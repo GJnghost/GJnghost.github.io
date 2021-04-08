@@ -1678,4 +1678,218 @@ type: "pie",
         <tag>高中</tag>
       </tags>
   </entry>
+  <entry>
+    <title>『粉笔国考』申论</title>
+    <url>/2021/04/08/2021-04-08-%E3%80%8E%E7%B2%89%E7%AC%94%E5%9B%BD%E8%80%83%E3%80%8F%E7%94%B3%E8%AE%BA/</url>
+    <content><![CDATA[<blockquote>
+<p>目前的打算是先根据粉笔的视频梳理一遍知识点和有关模块，再针对作文进行相应的学习。之后就是刷真题啦~</p>
+<p>是粉笔980的系统课，针对国考，嗯。</p>
+</blockquote>
+<p><img src="https://i.loli.net/2021/04/08/eqwUYjiFQrkPJ3c.jpg" alt="A59F5A4CFDD26DD04D23AFD4C773435B _2_.png"></p>
+<a id="more"></a>
+
+<hr>
+<h2 id="申论基础"><a href="#申论基础" class="headerlink" title="申论基础"></a>申论基础</h2><h3 id="一、大纲总结"><a href="#一、大纲总结" class="headerlink" title="一、大纲总结"></a>一、大纲总结</h3><h4 id="（一）基本原则"><a href="#（一）基本原则" class="headerlink" title="（一）基本原则"></a>（一）基本原则</h4><p>依据材料，材料为王</p>
+<h4 id="（二）答案来源"><a href="#（二）答案来源" class="headerlink" title="（二）答案来源"></a>（二）答案来源</h4><div style="width: 70%;margin: 0 auto">
+    <canvas id="chart6462" style="height: 300px"></canvas>
+</div>
+<script src="https://cdn.jsdelivr.net/npm/chart.js@2.9.3/dist/Chart.min.js"></script>
+<script type="text/javascript">
+    var ctx = document.getElementById('chart6462').getContext('2d');
+    var options = {
+type: "doughnut",
+   data: {
+   	labels:[
+   		"直接摘抄",
+   		"概括归纳",
+   		"分析推导"
+   	],
+   	datasets:[
+   		{
+   			data:[70,20,10],
+   			backgroundColor:[
+   				"#D2A9B0",
+   				"#E1C0D8",
+   				"#F1CFE5"
+   			],
+   			hoverBackgroundColor:[
+   				"#D2A9B0",
+   				"#E1C0D8",
+   				"#F1CFE5"
+   			]
+   		}
+   	]
+   }
+   //options: options
+};
+    new Chart(ctx, options);
+</script>
+
+<table>
+<thead>
+<tr>
+<th>答案来源</th>
+<th>解答</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>直接摘抄</td>
+<td>摘抄材料中表意明确、简洁的词语</td>
+</tr>
+<tr>
+<td>概括归纳</td>
+<td>使用规范性的表述代替材料中不规范的表述</td>
+</tr>
+<tr>
+<td>分析推导</td>
+<td>言外之意</td>
+</tr>
+</tbody></table>
+<h4 id="（三）作答要求"><a href="#（三）作答要求" class="headerlink" title="（三）作答要求"></a>（三）作答要求</h4><p>（一）基本要求：作答准确，符合材料，表述简明、规范、明确。</p>
+<p>2、更高要求：这是对“文”的要求，即畅达，没有语病。</p>
+<br/>
+
+<hr>
+<h3 id="二、要素题型"><a href="#二、要素题型" class="headerlink" title="二、要素题型"></a>二、要素题型</h3><table>
+<thead>
+<tr>
+<th>题型</th>
+<th>解释</th>
+<th>考察要素</th>
+<th>考察策略</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>单一题</td>
+<td>指要素明确，且要素相对较少的题目</td>
+<td>① 问题：指负面的信息。<br/>② 对策：指做法、行为。<br/>③ 影响（意义、危害）：指结果，结果分属性，有好的结果和坏的结果，好的结果指意义，坏的结果指危害。</td>
+<td>① 时间分配：20 分钟左右，最多不能超过 25 分钟。<br/>② 分数：单一题是最好拿分的题目，要拿到题目 80%左右的分数。</td>
+</tr>
+<tr>
+<td>综合题</td>
+<td>指要素模糊的题目</td>
+<td>① 常见的考查要素：问题、影响（意义、危害）、对策等。 <br/>② 非常见的考查要素：优势、含义、特点等，具体的作答内容要依据材料。</td>
+<td>① 时间分配：综合题难度较大，建议作答时间在 25 分钟左右。<br/>② 分数：拿到 60%左右的分数。</td>
+</tr>
+<tr>
+<td>公文题</td>
+<td>量词+文种</td>
+<td>有格式分、内容分和语言分，作答过程是多要素内容，而非某个单一要素，与主题有关的要素都可能写到</td>
+<td>① 时间分配：作答时间最多不能超过 40 分钟。<br/>② 分数：公文题的格式分和语言分比较固定，要得到题目 70%左右的分数。</td>
+</tr>
+<tr>
+<td>作文题</td>
+<td>议论文</td>
+<td>① 观点来源于材料，观点指问题、原因、影响（意义、危害）、对策等要素。<br/>② 材料外的内容，即论证素材要结合实际。</td>
+<td>① 时间分配：作文题一般是 40 分左右，建议分配 1 小时左右。<br/>② 分数：得到 70%-80%左右的分数。</td>
+</tr>
+</tbody></table>
+<br/>
+
+<hr>
+<h3 id="三、答题步骤"><a href="#三、答题步骤" class="headerlink" title="三、答题步骤"></a>三、答题步骤</h3><h4 id="（一）全面审题"><a href="#（一）全面审题" class="headerlink" title="（一）全面审题"></a>（一）全面审题</h4><ul>
+<li><strong>作答范围</strong></li>
+</ul>
+<ol>
+<li>出现根据/依据/阅读/结合以及具体的材料范围，只需要看指定范围即可。</li>
+<li>出现“给定资料 X 中提到了”，说明材料范围不明确，重点看提到的这则资料，也要兼顾其他材料。</li>
+</ol>
+<ul>
+<li><strong>主体结构</strong></li>
+</ul>
+<ol>
+<li>简单预判这道题围绕主题的内容有哪些。</li>
+</ol>
+<ul>
+<li><strong>作答要求</strong></li>
+</ul>
+<ol>
+<li>准确：材料有规范性表述则优先摘抄；材料没有规范性表述则符合题意地归纳概括。</li>
+<li>全面：写全要点，宁滥勿缺，与主题相关的信息都要写到。</li>
+<li>简明：写词不写句，突出核心。</li>
+<li>有条理：标清序号，如“1.2.3.4.”。</li>
+<li>层次分明：进行分类，将同一类别的事物写在一起。</li>
+</ol>
+<h4 id="（二）资料阅读"><a href="#（二）资料阅读" class="headerlink" title="（二）资料阅读"></a>（二）资料阅读</h4><ul>
+<li><strong>直接摘抄</strong></li>
+</ul>
+<p>表述必须符合题意，规范简洁。</p>
+<ol>
+<li><p><strong>首尾句</strong>：中国人说话或者写文章喜欢在第一句、最后一句写总结性的信息，信息非常规范，往往是可以直接摘抄的。</p>
+</li>
+<li><p><strong>观点句</strong>：有人说话的地方，如习近平总书记说“我们要推进共治、共建、共享策略”，习近平总书记的话很重要。专家、学者、媒体、政府、老百姓的话要重点关注，可能有规范性的答案信息。</p>
+</li>
+<li><p><strong>关联词</strong>：</p>
+<ul>
+<li><p>转折：转折之后是重点。虽然女朋友爱我，但她更爱前男友，强调爱的是前男友。 </p>
+</li>
+<li><p>并列：前后都有重点。例如公务员想上岸，既要学习申论，又要学习行测：说明行测和申论一样重要，同等重要，前后都有信息点。</p>
+</li>
+<li><p>递进：在申论中递进等同于并列，前后都有答案要点。例如不仅要加强制度建设，还要完善人才队伍。二者都是核心。</p>
+</li>
+<li><p>因果：原因更重要还是结果更重要，需要看题目。题目问原因则原因更重要，题目问结果则结果更重要。</p>
+</li>
+</ul>
+</li>
+<li><p><strong>标点符号</strong>：</p>
+<ul>
+<li><p>分号：表示并列，都有信息。 </p>
+</li>
+<li><p>顿号：出现顿号词群可能有重点。</p>
+</li>
+<li><p>破折号：表示解释说明，前后语意相同，写短的内容，大纲要求写简明的词，因此谁短写谁。</p>
+</li>
+<li><p>引号：</p>
+</li>
+</ul>
+<p>​        - 专有名词如“绿色银行”“马太效应”是社会领域政府报告中出现的词汇，可以直接摘抄。</p>
+<p>​        - 有的时候引号的词表示比喻、拟人、修饰、反讽，是不能摘抄的，要概括引号的词表述的真相。例如现在中国人对国产品牌有“歧视”，不能直接摘抄“歧视”，“歧视”是具有拟人色彩的词，是人的观感、感受，需要进行概括：国人看不起/不认同/不喜欢/不支持/不认可国产品牌，存在偏见。</p>
+</li>
+</ol>
+<ul>
+<li><strong>归纳概括</strong></li>
+</ul>
+<ol>
+<li>事例型材料和数据型材料的前后有总结则优先摘抄总结性信息；</li>
+<li>无总结，事例型材料靠自身积累，数据型材料用多少、高低、快慢概括。</li>
+</ol>
+<ul>
+<li><strong>分析推导</strong></li>
+</ul>
+<ol>
+<li>要把握好度，不能主观臆断；</li>
+<li>注意推导的精确性、准确性，保留材料的原有核心词汇；</li>
+<li>推导不能偷换主体。</li>
+</ol>
+<h4 id="（三）答案组织"><a href="#（三）答案组织" class="headerlink" title="（三）答案组织"></a>（三）答案组织</h4><ul>
+<li><p>无论题干有没有分类的要求，都尽量分类，携程“总分”的答案表述形式</p>
+</li>
+<li><p>标点符号、序号要占格子</p>
+</li>
+</ul>
+<br/>
+
+<hr>
+<h2 id="单一题"><a href="#单一题" class="headerlink" title="单一题"></a>单一题</h2><h3 id="一、问题"><a href="#一、问题" class="headerlink" title="一、问题"></a>一、问题</h3><h4 id="（一）常见命题的方式："><a href="#（一）常见命题的方式：" class="headerlink" title="（一）常见命题的方式："></a>（一）常见命题的方式：</h4><p>问题、不足、困境、瓶颈、挑战、难点等。</p>
+<h4 id="（二）答题技巧："><a href="#（二）答题技巧：" class="headerlink" title="（二）答题技巧："></a>（二）答题技巧：</h4><ul>
+<li><p><strong>直接摘抄</strong>：寻找负面的标志性词汇：不科学、不合理、不到位、不均衡、不完善、不健全、不足；缺乏、缺少、流失；少、低、差、弱、陈旧、单一等。</p>
+</li>
+<li><p><strong>归纳概括</strong>：对事例型资料、数据型资料等进行归纳概括。</p>
+</li>
+<li><p><strong>分析推导</strong>：对建议型表达进行分析推导。</p>
+</li>
+</ul>
+<br/>
+
+<hr>
+]]></content>
+      <categories>
+        <category>Study</category>
+        <category>公务员考试相关</category>
+      </categories>
+      <tags>
+        <tag>Study</tag>
+        <tag>国考</tag>
+      </tags>
+  </entry>
 </search>
