@@ -81,34 +81,6 @@
 
   
   <url>
-    <loc>http://gjnghost.top/tags/Professional-course/</loc>
-    <lastmod>2021-06-05</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://gjnghost.top/tags/%E8%BD%AF%E4%BB%B6%E5%B7%A5%E7%A8%8B/</loc>
-    <lastmod>2021-06-05</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://gjnghost.top/tags/Blog/</loc>
-    <lastmod>2021-06-05</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://gjnghost.top/tags/Github/</loc>
-    <lastmod>2021-06-05</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>http://gjnghost.top/tags/Essay/</loc>
     <lastmod>2021-06-05</lastmod>
     <changefreq>daily</changefreq>
@@ -130,14 +102,21 @@
   </url>
   
   <url>
-    <loc>http://gjnghost.top/tags/Hexo/</loc>
+    <loc>http://gjnghost.top/tags/Blog/</loc>
     <lastmod>2021-06-05</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
-    <loc>http://gjnghost.top/tags/The-final-exam/</loc>
+    <loc>http://gjnghost.top/tags/Github/</loc>
+    <lastmod>2021-06-05</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://gjnghost.top/tags/Hexo/</loc>
     <lastmod>2021-06-05</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -171,14 +150,28 @@
     <priority>0.6</priority>
   </url>
   
-
-  
   <url>
-    <loc>http://gjnghost.top/categories/Study/</loc>
+    <loc>http://gjnghost.top/tags/Professional-course/</loc>
     <lastmod>2021-06-05</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
+  
+  <url>
+    <loc>http://gjnghost.top/tags/%E8%BD%AF%E4%BB%B6%E5%B7%A5%E7%A8%8B/</loc>
+    <lastmod>2021-06-05</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://gjnghost.top/tags/The-final-exam/</loc>
+    <lastmod>2021-06-05</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+
   
   <url>
     <loc>http://gjnghost.top/categories/Life/</loc>
@@ -188,7 +181,7 @@
   </url>
   
   <url>
-    <loc>http://gjnghost.top/categories/Study/Blog/</loc>
+    <loc>http://gjnghost.top/categories/Study/</loc>
     <lastmod>2021-06-05</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -202,7 +195,7 @@
   </url>
   
   <url>
-    <loc>http://gjnghost.top/categories/Study/Professional-course/</loc>
+    <loc>http://gjnghost.top/categories/Study/Blog/</loc>
     <lastmod>2021-06-05</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -210,6 +203,13 @@
   
   <url>
     <loc>http://gjnghost.top/categories/Study/%E6%95%99%E8%B5%84%E8%80%83%E8%AF%95%E7%9B%B8%E5%85%B3/</loc>
+    <lastmod>2021-06-05</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://gjnghost.top/categories/Study/Professional-course/</loc>
     <lastmod>2021-06-05</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
