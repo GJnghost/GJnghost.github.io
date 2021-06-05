@@ -768,224 +768,6 @@ C) 国际软件质量认证                 D) 软件统一性标准</code></pre
       </tags>
   </entry>
   <entry>
-    <title>『Blog』Hexo+Github博客搭建&amp;域名</title>
-    <url>/2021/01/14/2021-01-14-%E3%80%8EBlog%E3%80%8FHexo+Github%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA&amp;%E5%9F%9F%E5%90%8D/</url>
-    <content><![CDATA[<blockquote>
-<p>First time搞博客的时候，是直接GitHub上fork的，qs更新的时候比较闹心</p>
-<p>众所周知，期末考试结束之后就是搞事情的时候 :P</p>
-<p>……本篇博客全凭回忆（可能有遗漏</p>
-</blockquote>
-<p><img src="https://i.loli.net/2021/01/14/LTCBt3OPWxU9b68.jpg" alt="QQ图片20210113223050.jpg"></p>
-<a id="more"></a>
-
-<h2 id="搭建环境准备"><a href="#搭建环境准备" class="headerlink" title="搭建环境准备"></a>搭建环境准备</h2><h3 id="Node-js的安装和准备"><a href="#Node-js的安装和准备" class="headerlink" title="Node.js的安装和准备"></a>Node.js的安装和准备</h3><ul>
-<li><p><a href="https://nodejs.org/en/">下载Node.js安装文件</a></p>
-<ul>
-<li><p>根据Windows版本选择：64bit。</p>
-</li>
-<li><p>保持默认设置，一路【Next】，安装即可。</p>
-</li>
-</ul>
-</li>
-<li><p>确认是否安装正确</p>
-<ul>
-<li><p>打开cmd输入</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">node -v</span><br><span class="line">npm -v</span><br></pre></td></tr></table></figure></li>
-<li><p>若结果如下图所示，则说明安装正确，可以进行下一步了，如果不正确，则需要回头检查自己的安装过程。</p>
-<img src="https://i.loli.net/2021/01/14/qW6iFYOZCubKlaB.png" alt="QQ图片20210114165854.png" />
-
-</li>
-</ul>
-</li>
-</ul>
-<h3 id="Git的安装和准备"><a href="#Git的安装和准备" class="headerlink" title="Git的安装和准备"></a>Git的安装和准备</h3><ul>
-<li><p><a href="https://git-scm.com/">下载Git安装文件</a></p>
-<ul>
-<li><p>根据Windows版本选择：64bit。</p>
-</li>
-<li><p>保持默认设置，一路【Next】，安装即可。</p>
-</li>
-</ul>
-</li>
-<li><p>确认是否安装正确</p>
-<ul>
-<li><p>打开cmd输入</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">git --version</span><br></pre></td></tr></table></figure></li>
-<li><p>若结果如下图所示，则说明安装正确，可以进行下一步了，如果不正确，则需要回头检查自己的安装过程。</p>
-<p><img src="https://i.loli.net/2021/01/14/YaQzoBpJwiRr3nq.png" alt="1.png"></p>
-</li>
-</ul>
-</li>
-</ul>
-<h3 id="GitHub账户注册和配置"><a href="#GitHub账户注册和配置" class="headerlink" title="GitHub账户注册和配置"></a>GitHub账户注册和配置</h3><ul>
-<li><p>注册，并确认注册</p>
-</li>
-<li><p>创建代码库，Repository name填写<code>YourName.github.io</code></p>
-<blockquote>
-<p>例如，GitHub名称为GJnghost，则填写GJnghost.github.io</p>
-</blockquote>
-</li>
-</ul>
-<h2 id="Hexo安装配置"><a href="#Hexo安装配置" class="headerlink" title="Hexo安装配置"></a>Hexo安装配置</h2><h3 id="安装Hexo"><a href="#安装Hexo" class="headerlink" title="安装Hexo"></a>安装Hexo</h3><ul>
-<li><p>在自己认为合适的地方创建一个文件夹，这里以D：/hexo 为例，首先在D盘目录下创建Hexo文件夹，并在命令行的窗口进入到该目录</p>
-</li>
-<li><p>在cmd中输入</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">npm install hexo-cli -g</span><br></pre></td></tr></table></figure>
-<ul>
-<li><p>那么这时候就会发现，它快乐地转了几个小时也没下载下来</p>
-<p>解决方法：修改npm安装源，这里使用淘宝镜像</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">npm config set registry https:&#x2F;&#x2F;registry.npm.taobao.org</span><br></pre></td></tr></table></figure></li>
-<li><p>于是它快乐下载，于是快乐error了</p>
-<p>错误：<code>TypeError:this is not a typed array;</code></p>
-<p>原因：安装的node版本过低……（所以上文的下载地址改成了官网</p>
-</li>
-<li><p>如果出现WARN，请忽略它</p>
-</li>
-</ul>
-</li>
-<li><p>在cmd中输入</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">npm install hexo --save</span><br></pre></td></tr></table></figure></li>
-<li><p>在cmd中输入</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">hexo -v</span><br></pre></td></tr></table></figure>
-<p>若结果如下图所示，则说明安装成功，如果没有且排查不出错误的话，请换篇博客参考（doge</p>
-<p><img src="https://i.loli.net/2021/01/14/qvFWBI8fA5mVR3L.png" alt="QQ图片20210114172428.png"></p>
-</li>
-</ul>
-<h3 id="hexo相关配置"><a href="#hexo相关配置" class="headerlink" title="hexo相关配置"></a>hexo相关配置</h3><ul>
-<li><p><strong>初始化Hexo</strong></p>
-<p>在cmd中输入</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">hexo init</span><br><span class="line">npm install</span><br></pre></td></tr></table></figure>
-<p>Wating……</p>
-</li>
-<li><p><strong>体验Hexo</strong></p>
-<p>在cmd中输入</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">hexo g</span><br><span class="line">hexo s</span><br></pre></td></tr></table></figure>
-<p>会提示：</p>
-<blockquote>
-<p>INFO  Hexo is running at <a href="http://localhost:4000/">http://localhost:4000</a> . Press Ctrl+C to stop.</p>
-</blockquote>
-<p>在浏览器中打开<a href="http://localhost:4000，将会看到：">http://localhost:4000，将会看到：</a></p>
-<p><img src="https://i.loli.net/2021/01/14/bxlBdwYfUpsRCyt.png" alt="QQ图片20210114181323.png"></p>
-</li>
-</ul>
-<p>至此，Hexo本地配置结束</p>
-<h2 id="联系Hexo与github-page"><a href="#联系Hexo与github-page" class="headerlink" title="联系Hexo与github page"></a>联系Hexo与github page</h2><h3 id="配置git个人信息"><a href="#配置git个人信息" class="headerlink" title="配置git个人信息"></a>配置git个人信息</h3><ul>
-<li><p>设置Git的user name和email：（第一次的话</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">git config --global user.name &quot;GJnhost&quot;</span><br><span class="line">git config --global user.email &quot;1766933911@qq.com&quot;</span><br></pre></td></tr></table></figure></li>
-<li><p>生成密钥</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">ssh-keygen -t rsa -C &quot;1766933911@163.com&quot;</span><br></pre></td></tr></table></figure>
-<p>三个回车得到密钥</p>
-<p>得到id_rsa和id_rsa.pub，默认文件存储路径：</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">C:\Users\Jolin\.ssh</span><br></pre></td></tr></table></figure></li>
-<li><p>将id_rsa.pub中数据复制</p>
-</li>
-<li><p>打开Github，个人的【Settings】，在【SSH and GPG keys】中的【SSH keys】中选择【New SSH key】，将上一步的数据粘贴进去</p>
-</li>
-<li><p>测试</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">ssh -T git@github.com</span><br></pre></td></tr></table></figure>
-<p>若显示以下结果则成功</p>
-<p><img src="https://i.loli.net/2021/01/14/an9oDU6BG8TseCj.png" alt="QQ图片20210114185519.png"></p>
-</li>
-</ul>
-<h3 id="配置Deployment"><a href="#配置Deployment" class="headerlink" title="配置Deployment"></a>配置Deployment</h3><ul>
-<li><p>在根目录的<code>_config.yml</code>文件中，找到Deployment，按如下修改</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">deploy:</span><br><span class="line">  type: git</span><br><span class="line">  repo: git@github.com:yourname&#x2F;yourname.github.io.git</span><br><span class="line">  branch: master</span><br></pre></td></tr></table></figure>
-<blockquote>
-<p>例如</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">deploy:</span><br><span class="line">  type: git</span><br><span class="line">  repo: git@github.com:GJnghost&#x2F;GJnghost.github.io.git</span><br><span class="line">  branch: master</span><br></pre></td></tr></table></figure>
-</blockquote>
-</li>
-</ul>
-<h2 id="使用Hexo主题"><a href="#使用Hexo主题" class="headerlink" title="使用Hexo主题"></a>使用Hexo主题</h2><p>以Ayer主题为例</p>
-<h3 id="安装"><a href="#安装" class="headerlink" title="安装"></a>安装</h3><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line"># 国内用户如果速度较慢，可以把github地址替换为：https:&#x2F;&#x2F;gitee.com&#x2F;mirrors&#x2F;ayer.git</span><br><span class="line">git clone https:&#x2F;&#x2F;github.com&#x2F;Shen-Yu&#x2F;hexo-theme-ayer.git themes&#x2F;ayer</span><br></pre></td></tr></table></figure>
-<p>将原来的配置文件移动到根目录，并重命名为<code>_config.ayer.yml</code></p>
-<h3 id="修改"><a href="#修改" class="headerlink" title="修改"></a>修改</h3><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">theme: ayer</span><br></pre></td></tr></table></figure>
-<h3 id="更新"><a href="#更新" class="headerlink" title="更新"></a>更新</h3><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">npm update hexo-theme-ayer -S</span><br></pre></td></tr></table></figure>
-<h3 id="发布"><a href="#发布" class="headerlink" title="发布"></a>发布</h3><p>在根目录下，右键打开【Git Bash Here】，执行下面命令：</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">hexo d -g #在部署前先生成</span><br></pre></td></tr></table></figure>
-<p>如若发布成功，会显示如下图片：</p>
-<p><img src="https://i.loli.net/2021/01/14/DSYjTCcfnGEtFwZ.png" alt="QQ图片20210114184027.png"></p>
-<p>部署成功后访问 <a href="http://www.gjnghost.github.io/">http://www.gjnghost.github.io</a> 即可</p>
-<ul>
-<li><p>于是被提醒</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">deloyer not found:git</span><br></pre></td></tr></table></figure>
-<p>需要提前安装一个扩展</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">npm install hexo-deployer-git --save</span><br></pre></td></tr></table></figure></li>
-<li><p>于是又出现了以下错误</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">Permission denied (publickey).</span><br><span class="line">fatal: Could not read from remote repository.</span><br><span class="line">Please make sure you have the correct access rights</span><br><span class="line">and the repository exists.</span><br></pre></td></tr></table></figure>
-<p>那就是上述的SSH并没有完成相关配置</p>
-</li>
-</ul>
-<h3 id="插件（必需）"><a href="#插件（必需）" class="headerlink" title="插件（必需）"></a>插件（必需）</h3><ul>
-<li><p><a href="https://github.com/theme-next/hexo-generator-searchdb">hexo-generator-searchdb</a> 用于搜索</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">npm install hexo-generator-searchdb --save</span><br></pre></td></tr></table></figure>
-<p>然后将以下配置复制到你博客根目录下的 <code>_config.yml</code> 里（注意不是ayer.xml）:</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line"># hexo-generator-searchdb</span><br><span class="line">search:</span><br><span class="line">  path: search.xml</span><br><span class="line">  field: post</span><br><span class="line">  format: html</span><br></pre></td></tr></table></figure></li>
-<li><p><a href="https://github.com/hexojs/hexo-generator-feed">hexo-generator-feed</a> 用于生成RSS订阅</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">COPYnpm install hexo-generator-feed --save</span><br></pre></td></tr></table></figure>
-<p>然后将以下配置复制到你博客根目录下的 <code>_config.yml</code> 里（注意不是ayer.xml）:</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">feed:</span><br><span class="line">    type: atom</span><br><span class="line">    path: atom.xml</span><br><span class="line">    limit: 20</span><br><span class="line">    hub:</span><br><span class="line">    content:</span><br><span class="line">    content_limit: 140</span><br><span class="line">    content_limit_delim: &#39; &#39;</span><br><span class="line">    order_by: -date	</span><br></pre></td></tr></table></figure>
-<h3 id="插件（可选）"><a href="#插件（可选）" class="headerlink" title="插件（可选）"></a>插件（可选）</h3></li>
-<li><p><a href="https://github.com/netcan/hexo-generator-index-pin-top">hexo-generator-index-pin-top</a> 用于文章置顶</p>
-</li>
-<li><p><a href="https://github.com/MikeCoder/hexo-blog-encrypt/blob/master/ReadMe.zh.md">hexo-blog-encrypt</a> 用于文章加密</p>
-</li>
-<li><p><a href="https://github.com/MoePlayer/hexo-tag-aplayer/blob/master/docs/README-zh_cn.md">hexo-tag-aplayer</a> 用于播放音乐</p>
-</li>
-<li><p><a href="https://github.com/MoePlayer/hexo-tag-dplayer">hexo-tag-dplayer</a> 用于播放视频</p>
-</li>
-<li><p><a href="https://github.com/EYHN/hexo-helper-live2d/blob/master/README.zh-CN.md">hexo-helper-live2d</a> 二次元看板娘</p>
-</li>
-</ul>
-<p>更多插件请见 <a href="https://hexo.io/plugins/">hexo插件市场</a></p>
-<h3 id="分类"><a href="#分类" class="headerlink" title="分类"></a>分类</h3><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">hexo new page categories</span><br></pre></td></tr></table></figure>
-<p>然后将以下复制到 /source/categories/index.md 文件</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">---</span><br><span class="line">title: categories</span><br><span class="line">type: &quot;categories&quot;</span><br><span class="line">layout: &quot;categories&quot;</span><br><span class="line">---</span><br></pre></td></tr></table></figure>
-<h3 id="标签"><a href="#标签" class="headerlink" title="标签"></a>标签</h3><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">hexo new page tags</span><br></pre></td></tr></table></figure>
-<p>然后将以下复制到 /source/tags/index.md 文件</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">---</span><br><span class="line">title: tags</span><br><span class="line">type: &quot;tags&quot;</span><br><span class="line">layout: &quot;tags&quot;</span><br><span class="line">---</span><br></pre></td></tr></table></figure>
-<h3 id="友情链接"><a href="#友情链接" class="headerlink" title="友情链接"></a>友情链接</h3><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">COPYhexo new page friends</span><br></pre></td></tr></table></figure>
-<p>然后将以下复制到 /source/friends/index.md 文件</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">---</span><br><span class="line">title: friends</span><br><span class="line">type: friends</span><br><span class="line">layout: &quot;friends&quot;</span><br><span class="line">---</span><br></pre></td></tr></table></figure>
-<p>然后在 ayer 主题目录下的 <code>_config.yml</code> 中自定义 <code>friends_link</code> 配置项即可</p>
-<h3 id="文章目录"><a href="#文章目录" class="headerlink" title="文章目录"></a>文章目录</h3><p>用 Tocbot 解析文章标题并生成目录。当然你可能并不想所有文章都生成悬浮目录，你可以在文章顶部的配置中加一行来进行关闭：</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">---</span><br><span class="line">no_toc: true</span><br><span class="line">---</span><br></pre></td></tr></table></figure>
-<h3 id="一些其他的"><a href="#一些其他的" class="headerlink" title="一些其他的"></a>一些其他的</h3><h4 id="图片引用"><a href="#图片引用" class="headerlink" title="图片引用"></a>图片引用</h4><p>推荐图床：<a href="https://sm.ms/">SM.MS</a></p>
-<blockquote>
-<p>TQL!!!</p>
-</blockquote>
-<h4 id="修改大标题和站点信息"><a href="#修改大标题和站点信息" class="headerlink" title="修改大标题和站点信息"></a>修改大标题和站点信息</h4><p>站点配置文件 <code>_config.yml</code> 是 Hexo 站点根目录下的主配置文件，注意：不是<code>_config.ayer.xml</code></p>
-<p>修改网站各种资料，例如标题、副标题和邮箱等个人资料，请修改 Hexo 博客目录下的 <code>_config.yml</code></p>
-<blockquote>
-<p>例如：</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line"># Site</span><br><span class="line">title: Gghost</span><br><span class="line">SEOTitle: 耹也的博客 | GJ Blog</span><br><span class="line">subtitle: &#39;剔透&#39;</span><br><span class="line">description: &#39;No can, but will.&#39; </span><br><span class="line">email: 1766933911@qq.com</span><br><span class="line">keywords: &quot;学习,兴趣,旅行,代码,博客&quot;</span><br><span class="line">author: Gghost</span><br><span class="line">language: zh-Hans</span><br><span class="line">timezone: Asia&#x2F;Shanghai</span><br></pre></td></tr></table></figure>
-</blockquote>
-<h4 id="百度统计"><a href="#百度统计" class="headerlink" title="百度统计"></a>百度统计</h4><p>在百度统计中创建</p>
-<p>在<code>_config.ayer.xml</code>中的 <code>baidu_analytics</code> 填上百度统计代码中的 <code>hm.js?</code> 后面那一串东西</p>
-<h2 id="域名更换"><a href="#域名更换" class="headerlink" title="域名更换"></a>域名更换</h2><h3 id="域名购买"><a href="#域名购买" class="headerlink" title="域名购买"></a>域名购买</h3><p>好废话！（捧读</p>
-<h3 id="域名解析"><a href="#域名解析" class="headerlink" title="域名解析"></a>域名解析</h3><ul>
-<li><p>windows 下直接在 cmd 里 Ping 一下自己的博客就会得到自己 github 的二级域名的 IP地址：</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">ping username.github.io #username为自己的github用户名</span><br></pre></td></tr></table></figure></li>
-<li><p>进入阿里云的管理控制台-域名与网站-云解析 DNS，进入域名的解析设置，点击新手指导，将得到的 IP 地址填到记录值一栏，点击确定就 OK 了。记录值就是自己 github 的二级域名的 IP地址。</p>
-</li>
-</ul>
-<h3 id="设置CNAME"><a href="#设置CNAME" class="headerlink" title="设置CNAME"></a>设置CNAME</h3><p>在本地Hexo根目录下的source 文件夹中创建 CNAME 文件（无后缀），在里面写入购买的域名，如图所示：</p>
-<p><img src="https://i.loli.net/2021/01/14/FROSperM3XUvfgj.png" alt="QQ图片20210114190655.png"></p>
-<h3 id="设置GitHub-Pages"><a href="#设置GitHub-Pages" class="headerlink" title="设置GitHub Pages"></a>设置GitHub Pages</h3><p>打开 username.github.io 项目的（Settings）设置，然后在 GitHub Pages的 Custom domain设置里填入购买的域名，如图所示：</p>
-<p><img src="https://i.loli.net/2021/01/14/s79NgPmicUrLadE.png" alt="QQ图片20210114190655.png"></p>
-<hr>
-]]></content>
-      <categories>
-        <category>Study</category>
-        <category>Blog</category>
-      </categories>
-      <tags>
-        <tag>Blog</tag>
-        <tag>Github</tag>
-        <tag>Hexo</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>『Essay』Record Lists</title>
     <url>/2021/01/15/2021-01-15-%E3%80%8EEssay%E3%80%8FRecord-Lists/</url>
     <content><![CDATA[<blockquote>
@@ -1679,232 +1461,221 @@ type: "pie",
       </tags>
   </entry>
   <entry>
-    <title>『公务员考试』申论</title>
-    <url>/2021/04/08/2021-04-08-%E3%80%8E%E5%85%AC%E5%8A%A1%E5%91%98%E8%80%83%E8%AF%95%E3%80%8F%E7%94%B3%E8%AE%BA/</url>
+    <title>『Blog』Hexo+Github博客搭建&amp;域名</title>
+    <url>/2021/01/14/2021-01-14-%E3%80%8EBlog%E3%80%8FHexo+Github%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BAand%E5%9F%9F%E5%90%8D/</url>
     <content><![CDATA[<blockquote>
-<p>是粉笔980的系统课，针对国考，嗯。</p>
+<p>First time搞博客的时候，是直接GitHub上fork的，qs更新的时候比较闹心</p>
+<p>众所周知，期末考试结束之后就是搞事情的时候 :P</p>
+<p>……本篇博客全凭回忆（可能有遗漏</p>
 </blockquote>
-<p><img src="https://i.loli.net/2021/04/08/eqwUYjiFQrkPJ3c.jpg" alt="A59F5A4CFDD26DD04D23AFD4C773435B _2_.png"></p>
+<p><img src="https://i.loli.net/2021/01/14/LTCBt3OPWxU9b68.jpg" alt="QQ图片20210113223050.jpg"></p>
 <a id="more"></a>
 
-<hr>
-<h2 id="申论基础"><a href="#申论基础" class="headerlink" title="申论基础"></a>申论基础</h2><hr>
-<h3 id="一、大纲总结"><a href="#一、大纲总结" class="headerlink" title="一、大纲总结"></a>一、大纲总结</h3><h4 id="（一）基本原则"><a href="#（一）基本原则" class="headerlink" title="（一）基本原则"></a>（一）基本原则</h4><p>依据材料，材料为王</p>
-<h4 id="（二）答案来源"><a href="#（二）答案来源" class="headerlink" title="（二）答案来源"></a>（二）答案来源</h4><div style="width: 70%;margin: 0 auto">
-    <canvas id="chart923" style="height: 300px"></canvas>
-</div>
-<script src="https://cdn.jsdelivr.net/npm/chart.js@2.9.3/dist/Chart.min.js"></script>
-<script type="text/javascript">
-    var ctx = document.getElementById('chart923').getContext('2d');
-    var options = {
-type: "doughnut",
-   data: {
-   	labels:[
-   		"直接摘抄",
-   		"概括归纳",
-   		"分析推导"
-   	],
-   	datasets:[
-   		{
-   			data:[70,20,10],
-   			backgroundColor:[
-   				"#D2A9B0",
-   				"#E1C0D8",
-   				"#F1CFE5"
-   			],
-   			hoverBackgroundColor:[
-   				"#D2A9B0",
-   				"#E1C0D8",
-   				"#F1CFE5"
-   			]
-   		}
-   	]
-   }
-   //options: options
-};
-    new Chart(ctx, options);
-</script>
+<h2 id="搭建环境准备"><a href="#搭建环境准备" class="headerlink" title="搭建环境准备"></a>搭建环境准备</h2><h3 id="Node-js的安装和准备"><a href="#Node-js的安装和准备" class="headerlink" title="Node.js的安装和准备"></a>Node.js的安装和准备</h3><ul>
+<li><p><a href="https://nodejs.org/en/">下载Node.js安装文件</a></p>
+<ul>
+<li><p>根据Windows版本选择：64bit。</p>
+</li>
+<li><p>保持默认设置，一路【Next】，安装即可。</p>
+</li>
+</ul>
+</li>
+<li><p>确认是否安装正确</p>
+<ul>
+<li><p>打开cmd输入</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">node -v</span><br><span class="line">npm -v</span><br></pre></td></tr></table></figure></li>
+<li><p>若结果如下图所示，则说明安装正确，可以进行下一步了，如果不正确，则需要回头检查自己的安装过程。</p>
+<img src="https://i.loli.net/2021/01/14/qW6iFYOZCubKlaB.png" alt="QQ图片20210114165854.png" />
 
-<table>
-<thead>
-<tr>
-<th>答案来源</th>
-<th>解答</th>
-</tr>
-</thead>
-<tbody><tr>
-<td>直接摘抄</td>
-<td>摘抄材料中表意明确、简洁的词语</td>
-</tr>
-<tr>
-<td>概括归纳</td>
-<td>使用规范性的表述代替材料中不规范的表述</td>
-</tr>
-<tr>
-<td>分析推导</td>
-<td>言外之意</td>
-</tr>
-</tbody></table>
-<h4 id="（三）作答要求"><a href="#（三）作答要求" class="headerlink" title="（三）作答要求"></a>（三）作答要求</h4><ul>
-<li><p>基本要求：作答准确，符合材料，表述简明、规范、明确。</p>
-</li>
-<li><p>更高要求：这是对“文”的要求，即畅达，没有语病。</p>
 </li>
 </ul>
-<br/>
-
-<hr>
-<h3 id="二、要素题型"><a href="#二、要素题型" class="headerlink" title="二、要素题型"></a>二、要素题型</h3><table>
-<thead>
-<tr>
-<th>题型</th>
-<th>解释</th>
-<th>考察要素</th>
-<th>时间分配</th>
-<th>分数</th>
-</tr>
-</thead>
-<tbody><tr>
-<td>单一题</td>
-<td>指要素明确，且要素相对较少的题目</td>
-<td>① 问题：指负面的信息。<br/>② 对策：指做法、行为。<br/>③ 影响（意义、危害）：指结果，结果分属性，有好的结果和坏的结果，好的结果指意义，坏的结果指危害。</td>
-<td>20 min<br/>≤ 25 min</td>
-<td>80%</td>
-</tr>
-<tr>
-<td>综合题</td>
-<td>指要素模糊的题目</td>
-<td>① 常见的考查要素：问题、影响（意义、危害）、对策等。 <br/>② 非常见的考查要素：优势、含义、特点等，具体的作答内容要依据材料。</td>
-<td>25 min</td>
-<td>60%</td>
-</tr>
-<tr>
-<td>公文题</td>
-<td>量词+文种</td>
-<td>有格式分、内容分和语言分，作答过程是多要素内容，而非某个单一要素，与主题有关的要素都可能写到</td>
-<td>≤ 40 min</td>
-<td>70%</td>
-</tr>
-<tr>
-<td>作文题</td>
-<td>议论文</td>
-<td>① 观点来源于材料，观点指问题、原因、影响（意义、危害）、对策等要素。<br/>② 材料外的内容，即论证素材要结合实际。</td>
-<td>1 hour</td>
-<td>70%-80%</td>
-</tr>
-</tbody></table>
-<br/>
-
-<hr>
-<h3 id="三、答题步骤"><a href="#三、答题步骤" class="headerlink" title="三、答题步骤"></a>三、答题步骤</h3><h4 id="（一）全面审题"><a href="#（一）全面审题" class="headerlink" title="（一）全面审题"></a>（一）全面审题</h4><ul>
-<li><strong>作答范围</strong></li>
+</li>
 </ul>
-<ol>
-<li>出现根据/依据/阅读/结合以及具体的材料范围，只需要看指定范围即可。</li>
-<li>出现“给定资料 X 中提到了”，说明材料范围不明确，重点看提到的这则资料，也要兼顾其他材料。</li>
-</ol>
+<h3 id="Git的安装和准备"><a href="#Git的安装和准备" class="headerlink" title="Git的安装和准备"></a>Git的安装和准备</h3><ul>
+<li><p><a href="https://git-scm.com/">下载Git安装文件</a></p>
 <ul>
-<li><strong>主体结构</strong></li>
+<li><p>根据Windows版本选择：64bit。</p>
+</li>
+<li><p>保持默认设置，一路【Next】，安装即可。</p>
+</li>
 </ul>
-<ol>
-<li>简单预判这道题围绕主题的内容有哪些。</li>
-</ol>
+</li>
+<li><p>确认是否安装正确</p>
 <ul>
-<li><strong>作答要求</strong></li>
-</ul>
-<ol>
-<li>准确：材料有规范性表述则优先摘抄；材料没有规范性表述则符合题意地归纳概括。</li>
-<li>全面：写全要点，宁滥勿缺，与主题相关的信息都要写到。</li>
-<li>简明：写词不写句，突出核心。</li>
-<li>有条理：标清序号，如“1.2.3.4.”。</li>
-<li>层次分明：进行分类，将同一类别的事物写在一起。</li>
-</ol>
-<h4 id="（二）资料阅读"><a href="#（二）资料阅读" class="headerlink" title="（二）资料阅读"></a>（二）资料阅读</h4><ul>
-<li><strong>直接摘抄</strong></li>
-</ul>
-<p>表述必须符合题意，规范简洁。</p>
-<ol>
-<li><p><strong>首尾句</strong>：中国人说话或者写文章喜欢在第一句、最后一句写总结性的信息，信息非常规范，往往是可以直接摘抄的。</p>
+<li><p>打开cmd输入</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">git --version</span><br></pre></td></tr></table></figure></li>
+<li><p>若结果如下图所示，则说明安装正确，可以进行下一步了，如果不正确，则需要回头检查自己的安装过程。</p>
+<p><img src="https://i.loli.net/2021/01/14/YaQzoBpJwiRr3nq.png" alt="1.png"></p>
 </li>
-<li><p><strong>观点句</strong>：有人说话的地方，如习近平总书记说“我们要推进共治、共建、共享策略”，习近平总书记的话很重要。专家、学者、媒体、政府、老百姓的话要重点关注，可能有规范性的答案信息。</p>
+</ul>
 </li>
-<li><p><strong>关联词</strong>：</p>
+</ul>
+<h3 id="GitHub账户注册和配置"><a href="#GitHub账户注册和配置" class="headerlink" title="GitHub账户注册和配置"></a>GitHub账户注册和配置</h3><ul>
+<li><p>注册，并确认注册</p>
+</li>
+<li><p>创建代码库，Repository name填写<code>YourName.github.io</code></p>
+<blockquote>
+<p>例如，GitHub名称为GJnghost，则填写GJnghost.github.io</p>
+</blockquote>
+</li>
+</ul>
+<h2 id="Hexo安装配置"><a href="#Hexo安装配置" class="headerlink" title="Hexo安装配置"></a>Hexo安装配置</h2><h3 id="安装Hexo"><a href="#安装Hexo" class="headerlink" title="安装Hexo"></a>安装Hexo</h3><ul>
+<li><p>在自己认为合适的地方创建一个文件夹，这里以D：/hexo 为例，首先在D盘目录下创建Hexo文件夹，并在命令行的窗口进入到该目录</p>
+</li>
+<li><p>在cmd中输入</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">npm install hexo-cli -g</span><br></pre></td></tr></table></figure>
 <ul>
-<li><p>转折：转折之后是重点。虽然女朋友爱我，但她更爱前男友，强调爱的是前男友。 </p>
+<li><p>那么这时候就会发现，它快乐地转了几个小时也没下载下来</p>
+<p>解决方法：修改npm安装源，这里使用淘宝镜像</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">npm config set registry https:&#x2F;&#x2F;registry.npm.taobao.org</span><br></pre></td></tr></table></figure></li>
+<li><p>于是它快乐下载，于是快乐error了</p>
+<p>错误：<code>TypeError:this is not a typed array;</code></p>
+<p>原因：安装的node版本过低……（所以上文的下载地址改成了官网</p>
 </li>
-<li><p>并列：前后都有重点。例如公务员想上岸，既要学习申论，又要学习行测：说明行测和申论一样重要，同等重要，前后都有信息点。</p>
-</li>
-<li><p>递进：在申论中递进等同于并列，前后都有答案要点。例如不仅要加强制度建设，还要完善人才队伍。二者都是核心。</p>
-</li>
-<li><p>因果：原因更重要还是结果更重要，需要看题目。题目问原因则原因更重要，题目问结果则结果更重要。</p>
+<li><p>如果出现WARN，请忽略它</p>
 </li>
 </ul>
 </li>
-<li><p><strong>标点符号</strong>：</p>
+<li><p>在cmd中输入</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">npm install hexo --save</span><br></pre></td></tr></table></figure></li>
+<li><p>在cmd中输入</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">hexo -v</span><br></pre></td></tr></table></figure>
+<p>若结果如下图所示，则说明安装成功，如果没有且排查不出错误的话，请换篇博客参考（doge</p>
+<p><img src="https://i.loli.net/2021/01/14/qvFWBI8fA5mVR3L.png" alt="QQ图片20210114172428.png"></p>
+</li>
+</ul>
+<h3 id="hexo相关配置"><a href="#hexo相关配置" class="headerlink" title="hexo相关配置"></a>hexo相关配置</h3><ul>
+<li><p><strong>初始化Hexo</strong></p>
+<p>在cmd中输入</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">hexo init</span><br><span class="line">npm install</span><br></pre></td></tr></table></figure>
+<p>Wating……</p>
+</li>
+<li><p><strong>体验Hexo</strong></p>
+<p>在cmd中输入</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">hexo g</span><br><span class="line">hexo s</span><br></pre></td></tr></table></figure>
+<p>会提示：</p>
+<blockquote>
+<p>INFO  Hexo is running at <a href="http://localhost:4000/">http://localhost:4000</a> . Press Ctrl+C to stop.</p>
+</blockquote>
+<p>在浏览器中打开<a href="http://localhost:4000，将会看到：">http://localhost:4000，将会看到：</a></p>
+<p><img src="https://i.loli.net/2021/01/14/bxlBdwYfUpsRCyt.png" alt="QQ图片20210114181323.png"></p>
+</li>
+</ul>
+<p>至此，Hexo本地配置结束</p>
+<h2 id="联系Hexo与github-page"><a href="#联系Hexo与github-page" class="headerlink" title="联系Hexo与github page"></a>联系Hexo与github page</h2><h3 id="配置git个人信息"><a href="#配置git个人信息" class="headerlink" title="配置git个人信息"></a>配置git个人信息</h3><ul>
+<li><p>设置Git的user name和email：（第一次的话</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">git config --global user.name &quot;GJnhost&quot;</span><br><span class="line">git config --global user.email &quot;1766933911@qq.com&quot;</span><br></pre></td></tr></table></figure></li>
+<li><p>生成密钥</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">ssh-keygen -t rsa -C &quot;1766933911@163.com&quot;</span><br></pre></td></tr></table></figure>
+<p>三个回车得到密钥</p>
+<p>得到id_rsa和id_rsa.pub，默认文件存储路径：</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">C:\Users\Jolin\.ssh</span><br></pre></td></tr></table></figure></li>
+<li><p>将id_rsa.pub中数据复制</p>
+</li>
+<li><p>打开Github，个人的【Settings】，在【SSH and GPG keys】中的【SSH keys】中选择【New SSH key】，将上一步的数据粘贴进去</p>
+</li>
+<li><p>测试</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">ssh -T git@github.com</span><br></pre></td></tr></table></figure>
+<p>若显示以下结果则成功</p>
+<p><img src="https://i.loli.net/2021/01/14/an9oDU6BG8TseCj.png" alt="QQ图片20210114185519.png"></p>
+</li>
+</ul>
+<h3 id="配置Deployment"><a href="#配置Deployment" class="headerlink" title="配置Deployment"></a>配置Deployment</h3><ul>
+<li><p>在根目录的<code>_config.yml</code>文件中，找到Deployment，按如下修改</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">deploy:</span><br><span class="line">  type: git</span><br><span class="line">  repo: git@github.com:yourname&#x2F;yourname.github.io.git</span><br><span class="line">  branch: master</span><br></pre></td></tr></table></figure>
+<blockquote>
+<p>例如</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">deploy:</span><br><span class="line">  type: git</span><br><span class="line">  repo: git@github.com:GJnghost&#x2F;GJnghost.github.io.git</span><br><span class="line">  branch: master</span><br></pre></td></tr></table></figure>
+</blockquote>
+</li>
+</ul>
+<h2 id="使用Hexo主题"><a href="#使用Hexo主题" class="headerlink" title="使用Hexo主题"></a>使用Hexo主题</h2><p>以Ayer主题为例</p>
+<h3 id="安装"><a href="#安装" class="headerlink" title="安装"></a>安装</h3><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line"># 国内用户如果速度较慢，可以把github地址替换为：https:&#x2F;&#x2F;gitee.com&#x2F;mirrors&#x2F;ayer.git</span><br><span class="line">git clone https:&#x2F;&#x2F;github.com&#x2F;Shen-Yu&#x2F;hexo-theme-ayer.git themes&#x2F;ayer</span><br></pre></td></tr></table></figure>
+<p>将原来的配置文件移动到根目录，并重命名为<code>_config.ayer.yml</code></p>
+<h3 id="修改"><a href="#修改" class="headerlink" title="修改"></a>修改</h3><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">theme: ayer</span><br></pre></td></tr></table></figure>
+<h3 id="更新"><a href="#更新" class="headerlink" title="更新"></a>更新</h3><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">npm update hexo-theme-ayer -S</span><br></pre></td></tr></table></figure>
+<h3 id="发布"><a href="#发布" class="headerlink" title="发布"></a>发布</h3><p>在根目录下，右键打开【Git Bash Here】，执行下面命令：</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">hexo d -g #在部署前先生成</span><br></pre></td></tr></table></figure>
+<p>如若发布成功，会显示如下图片：</p>
+<p><img src="https://i.loli.net/2021/01/14/DSYjTCcfnGEtFwZ.png" alt="QQ图片20210114184027.png"></p>
+<p>部署成功后访问 <a href="http://www.gjnghost.github.io/">http://www.gjnghost.github.io</a> 即可</p>
 <ul>
-<li><p>分号：表示并列，都有信息。 </p>
-</li>
-<li><p>顿号：出现顿号词群可能有重点。</p>
-</li>
-<li><p>破折号：表示解释说明，前后语意相同，写短的内容，大纲要求写简明的词，因此谁短写谁。</p>
-</li>
-<li><p>引号：</p>
-<ul>
-<li>专有名词如“绿色银行”“马太效应”是社会领域政府报告中出现的词汇，可以直接摘抄。</li>
-<li>有的时候引号的词表示比喻、拟人、修饰、反讽，是不能摘抄的，要概括引号的词表述的真相。例如现在中国人对国产品牌有“歧视”，不能直接摘抄“歧视”，“歧视”是具有拟人色彩的词，是人的观感、感受，需要进行概括：国人看不起/不认同/不喜欢/不支持/不认可国产品牌，存在偏见。</li>
-</ul>
+<li><p>于是被提醒</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">deloyer not found:git</span><br></pre></td></tr></table></figure>
+<p>需要提前安装一个扩展</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">npm install hexo-deployer-git --save</span><br></pre></td></tr></table></figure></li>
+<li><p>于是又出现了以下错误</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">Permission denied (publickey).</span><br><span class="line">fatal: Could not read from remote repository.</span><br><span class="line">Please make sure you have the correct access rights</span><br><span class="line">and the repository exists.</span><br></pre></td></tr></table></figure>
+<p>那就是上述的SSH并没有完成相关配置</p>
 </li>
 </ul>
+<h3 id="插件（必需）"><a href="#插件（必需）" class="headerlink" title="插件（必需）"></a>插件（必需）</h3><ul>
+<li><p><a href="https://github.com/theme-next/hexo-generator-searchdb">hexo-generator-searchdb</a> 用于搜索</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">npm install hexo-generator-searchdb --save</span><br></pre></td></tr></table></figure>
+<p>然后将以下配置复制到你博客根目录下的 <code>_config.yml</code> 里（注意不是ayer.xml）:</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line"># hexo-generator-searchdb</span><br><span class="line">search:</span><br><span class="line">  path: search.xml</span><br><span class="line">  field: post</span><br><span class="line">  format: html</span><br></pre></td></tr></table></figure></li>
+<li><p><a href="https://github.com/hexojs/hexo-generator-feed">hexo-generator-feed</a> 用于生成RSS订阅</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">COPYnpm install hexo-generator-feed --save</span><br></pre></td></tr></table></figure>
+<p>然后将以下配置复制到你博客根目录下的 <code>_config.yml</code> 里（注意不是ayer.xml）:</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">feed:</span><br><span class="line">    type: atom</span><br><span class="line">    path: atom.xml</span><br><span class="line">    limit: 20</span><br><span class="line">    hub:</span><br><span class="line">    content:</span><br><span class="line">    content_limit: 140</span><br><span class="line">    content_limit_delim: &#39; &#39;</span><br><span class="line">    order_by: -date	</span><br></pre></td></tr></table></figure>
+<h3 id="插件（可选）"><a href="#插件（可选）" class="headerlink" title="插件（可选）"></a>插件（可选）</h3></li>
+<li><p><a href="https://github.com/netcan/hexo-generator-index-pin-top">hexo-generator-index-pin-top</a> 用于文章置顶</p>
 </li>
-</ol>
-<ul>
-<li><strong>归纳概括</strong></li>
-</ul>
-<ol>
-<li>事例型材料和数据型材料的前后有总结则优先摘抄总结性信息；</li>
-<li>无总结，事例型材料靠自身积累，数据型材料用多少、高低、快慢概括。</li>
-</ol>
-<ul>
-<li><strong>分析推导</strong></li>
-</ul>
-<ol>
-<li>要把握好度，不能主观臆断；</li>
-<li>注意推导的精确性、准确性，保留材料的原有核心词汇；</li>
-<li>推导不能偷换主体。</li>
-</ol>
-<h4 id="（三）答案组织"><a href="#（三）答案组织" class="headerlink" title="（三）答案组织"></a>（三）答案组织</h4><ul>
-<li><p>无论题干有没有分类的要求，都尽量分类，携程“总分”的答案表述形式</p>
+<li><p><a href="https://github.com/MikeCoder/hexo-blog-encrypt/blob/master/ReadMe.zh.md">hexo-blog-encrypt</a> 用于文章加密</p>
 </li>
-<li><p>标点符号、序号要占格子</p>
+<li><p><a href="https://github.com/MoePlayer/hexo-tag-aplayer/blob/master/docs/README-zh_cn.md">hexo-tag-aplayer</a> 用于播放音乐</p>
+</li>
+<li><p><a href="https://github.com/MoePlayer/hexo-tag-dplayer">hexo-tag-dplayer</a> 用于播放视频</p>
+</li>
+<li><p><a href="https://github.com/EYHN/hexo-helper-live2d/blob/master/README.zh-CN.md">hexo-helper-live2d</a> 二次元看板娘</p>
 </li>
 </ul>
-<br/>
-
-<hr>
-<h2 id="单一题"><a href="#单一题" class="headerlink" title="单一题"></a>单一题</h2><hr>
-<h3 id="一、问题"><a href="#一、问题" class="headerlink" title="一、问题"></a>一、问题</h3><h4 id="（一）常见命题的方式："><a href="#（一）常见命题的方式：" class="headerlink" title="（一）常见命题的方式："></a>（一）常见命题的方式：</h4><ul>
-<li>问题、不足、困境、瓶颈、挑战、难点等。</li>
+<p>更多插件请见 <a href="https://hexo.io/plugins/">hexo插件市场</a></p>
+<h3 id="分类"><a href="#分类" class="headerlink" title="分类"></a>分类</h3><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">hexo new page categories</span><br></pre></td></tr></table></figure>
+<p>然后将以下复制到 /source/categories/index.md 文件</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">---</span><br><span class="line">title: categories</span><br><span class="line">type: &quot;categories&quot;</span><br><span class="line">layout: &quot;categories&quot;</span><br><span class="line">---</span><br></pre></td></tr></table></figure>
+<h3 id="标签"><a href="#标签" class="headerlink" title="标签"></a>标签</h3><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">hexo new page tags</span><br></pre></td></tr></table></figure>
+<p>然后将以下复制到 /source/tags/index.md 文件</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">---</span><br><span class="line">title: tags</span><br><span class="line">type: &quot;tags&quot;</span><br><span class="line">layout: &quot;tags&quot;</span><br><span class="line">---</span><br></pre></td></tr></table></figure>
+<h3 id="友情链接"><a href="#友情链接" class="headerlink" title="友情链接"></a>友情链接</h3><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">COPYhexo new page friends</span><br></pre></td></tr></table></figure>
+<p>然后将以下复制到 /source/friends/index.md 文件</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">---</span><br><span class="line">title: friends</span><br><span class="line">type: friends</span><br><span class="line">layout: &quot;friends&quot;</span><br><span class="line">---</span><br></pre></td></tr></table></figure>
+<p>然后在 ayer 主题目录下的 <code>_config.yml</code> 中自定义 <code>friends_link</code> 配置项即可</p>
+<h3 id="文章目录"><a href="#文章目录" class="headerlink" title="文章目录"></a>文章目录</h3><p>用 Tocbot 解析文章标题并生成目录。当然你可能并不想所有文章都生成悬浮目录，你可以在文章顶部的配置中加一行来进行关闭：</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">---</span><br><span class="line">no_toc: true</span><br><span class="line">---</span><br></pre></td></tr></table></figure>
+<h3 id="一些其他的"><a href="#一些其他的" class="headerlink" title="一些其他的"></a>一些其他的</h3><h4 id="图片引用"><a href="#图片引用" class="headerlink" title="图片引用"></a>图片引用</h4><p>推荐图床：<a href="https://sm.ms/">SM.MS</a></p>
+<blockquote>
+<p>TQL!!!</p>
+</blockquote>
+<h4 id="修改大标题和站点信息"><a href="#修改大标题和站点信息" class="headerlink" title="修改大标题和站点信息"></a>修改大标题和站点信息</h4><p>站点配置文件 <code>_config.yml</code> 是 Hexo 站点根目录下的主配置文件，注意：不是<code>_config.ayer.xml</code></p>
+<p>修改网站各种资料，例如标题、副标题和邮箱等个人资料，请修改 Hexo 博客目录下的 <code>_config.yml</code></p>
+<blockquote>
+<p>例如：</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line"># Site</span><br><span class="line">title: Gghost</span><br><span class="line">SEOTitle: 耹也的博客 | GJ Blog</span><br><span class="line">subtitle: &#39;剔透&#39;</span><br><span class="line">description: &#39;No can, but will.&#39; </span><br><span class="line">email: 1766933911@qq.com</span><br><span class="line">keywords: &quot;学习,兴趣,旅行,代码,博客&quot;</span><br><span class="line">author: Gghost</span><br><span class="line">language: zh-Hans</span><br><span class="line">timezone: Asia&#x2F;Shanghai</span><br></pre></td></tr></table></figure>
+</blockquote>
+<h4 id="百度统计"><a href="#百度统计" class="headerlink" title="百度统计"></a>百度统计</h4><p>在百度统计中创建</p>
+<p>在<code>_config.ayer.xml</code>中的 <code>baidu_analytics</code> 填上百度统计代码中的 <code>hm.js?</code> 后面那一串东西</p>
+<h2 id="域名更换"><a href="#域名更换" class="headerlink" title="域名更换"></a>域名更换</h2><h3 id="域名购买"><a href="#域名购买" class="headerlink" title="域名购买"></a>域名购买</h3><p>好废话！（捧读</p>
+<h3 id="域名解析"><a href="#域名解析" class="headerlink" title="域名解析"></a>域名解析</h3><ul>
+<li><p>windows 下直接在 cmd 里 Ping 一下自己的博客就会得到自己 github 的二级域名的 IP地址：</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">ping username.github.io #username为自己的github用户名</span><br></pre></td></tr></table></figure></li>
+<li><p>进入阿里云的管理控制台-域名与网站-云解析 DNS，进入域名的解析设置，点击新手指导，将得到的 IP 地址填到记录值一栏，点击确定就 OK 了。记录值就是自己 github 的二级域名的 IP地址。</p>
+</li>
 </ul>
-<h4 id="（二）答题技巧："><a href="#（二）答题技巧：" class="headerlink" title="（二）答题技巧："></a>（二）答题技巧：</h4><ul>
-<li><p><strong>直接摘抄</strong>：寻找负面的标志性词汇：不科学、不合理、不到位、不均衡、不完善、不健全、不足；缺乏、缺少、流失；少、低、差、弱、陈旧、单一等。</p>
-</li>
-<li><p><strong>归纳概括</strong>：对事例型资料、数据型资料等进行归纳概括。</p>
-</li>
-<li><p><strong>分析推导</strong>：对建议型表达进行分析推导。</p>
-</li>
-</ul>
-<br/>
-
+<h3 id="设置CNAME"><a href="#设置CNAME" class="headerlink" title="设置CNAME"></a>设置CNAME</h3><p>在本地Hexo根目录下的source 文件夹中创建 CNAME 文件（无后缀），在里面写入购买的域名，如图所示：</p>
+<p><img src="https://i.loli.net/2021/01/14/FROSperM3XUvfgj.png" alt="QQ图片20210114190655.png"></p>
+<h3 id="设置GitHub-Pages"><a href="#设置GitHub-Pages" class="headerlink" title="设置GitHub Pages"></a>设置GitHub Pages</h3><p>打开 username.github.io 项目的（Settings）设置，然后在 GitHub Pages的 Custom domain设置里填入购买的域名，如图所示：</p>
+<p><img src="https://i.loli.net/2021/01/14/s79NgPmicUrLadE.png" alt="QQ图片20210114190655.png"></p>
 <hr>
 ]]></content>
       <categories>
         <category>Study</category>
-        <category>公务员考试相关</category>
+        <category>Blog</category>
       </categories>
       <tags>
-        <tag>Study</tag>
-        <tag>国考</tag>
-        <tag>粉笔</tag>
+        <tag>Blog</tag>
+        <tag>Github</tag>
+        <tag>Hexo</tag>
       </tags>
   </entry>
 </search>
